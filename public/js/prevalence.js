@@ -484,7 +484,7 @@ function init() {
   exp.all_names = [];
   exp.trials = [];
   exp.catch_trials = [];
-  var stimuli = _.shuffle(items).slice(0, 30);
+  var stimuli = _.shuffle(items).slice(0, 20);
 
   console.log(stimuli.length);
   //exp.stimuli = _.shuffle(stimuli).slice(0, 15);
