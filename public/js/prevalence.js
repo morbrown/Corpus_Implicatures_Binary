@@ -263,7 +263,9 @@ function make_slides(f) {
       //$(".case").html(contexthtml + " " + "<font color=#E7532B>"+usentence+"</font>"); // Replace .Sentence with the name of your sentence column
       $(".case").html(contexthtml + " " + "<font color=#E7532B>"+usentence+"</font>");
       $(".OriginalSentence").html(generic.OriginalSentence);
-      $(".ComparisonSentence").html( "<font color=#008CBA>" + generic.ComparisonSentence + "</font>");
+      var comparisonsentence = generic.ComparisonSentence;
+      comparisonsentence = comparisonsentence.replace(/some, but not all/g, "<strong>some, but not all</strong>");
+      $(".ComparisonSentence").html( "<font color=#008CBA>" + comparisonsentence + "</font>");
       $(".err").hide();
 
       this.counter++;
@@ -298,7 +300,8 @@ function make_slides(f) {
 	var has_val1 = exp.has_val = false;
 	sent = usentence.trim();
 	var targetsen = butnotboth;
-	// targetsen = targetsen.replace("all", "<b>some, but not all</b>");
+  
+
 	dispRow2.attr('align', 'left');
 	dispRow2.append("<div class=targetSen>" + targetsen + "</div>");
 
@@ -330,6 +333,7 @@ function make_slides(f) {
     contexthtml = contexthtml.replace(/--n((\d+)|[a-z]+|(\d+))+/g, "");
     contexthtml = contexthtml.replace(/.###/g, " ");
     contexthtml = contexthtml.replace(/-N((\d+)|[A-Z]+)+/g, "");
+   
 
 // FIX THIS!
   contexthtml = contexthtml.replace("<br><b>Speaker #</b>", "<br><b>Speaker #1: </b>");

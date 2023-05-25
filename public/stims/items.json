@@ -49,14 +49,14 @@ items = [
     },
     {
         "Item_ID": "13424:16",
-        "OriginalSentence": "and in fact, some of these things i get , some of these questionnaires,",
-        "ComparisonSentence": "and in fact, some, but not all of these things i get , some of these questionnaires,",
+        "OriginalSentence": "and in fact, some of these things i get, some of these questionnaires,",
+        "ComparisonSentence": "and in fact, some, but not all of these things i get, some of these questionnaires,",
         "Context": "###and almost anything you do --n400743 now, a social security number is required --n40076a.###.###uh-huh.###.###and, uh, of course there's another aspect of this, too, uh, in terms of invasion of privacy###i just thought about it,###-n40098f being a professional and, of course, you probably belong to one or more professional organizations,###and that is that some of the organizations sell their mailing lists which i think --n400ad0 is a, is an invasion of privacy.###.###uh-huh.###.###.###i agree.###.###.###yes,###i get some of these things --n400c8e in the mail that i wonder, where in the world did they get my address --n400cd5 or where did they get my name --n400cf8 --n400cff.###.###uh-huh.###."
     },
     {
         "Item_ID": "13424:44",
-        "OriginalSentence": "and in fact, some of these things i get , some of these questionnaires,",
-        "ComparisonSentence": "and in fact, some of these things i get , some, but not all of these questionnaires,",
+        "OriginalSentence": "and in fact, some of these things i get, some of these questionnaires,",
+        "ComparisonSentence": "and in fact, some of these things i get, some, but not all of these questionnaires,",
         "Context": "###and almost anything you do --n400743 now, a social security number is required --n40076a.###.###uh-huh.###.###and, uh, of course there's another aspect of this, too, uh, in terms of invasion of privacy###i just thought about it,###-n40098f being a professional and, of course, you probably belong to one or more professional organizations,###and that is that some of the organizations sell their mailing lists which i think --n400ad0 is a, is an invasion of privacy.###.###uh-huh.###.###.###i agree.###.###.###yes,###i get some of these things --n400c8e in the mail that i wonder, where in the world did they get my address --n400cd5 or where did they get my name --n400cf8 --n400cff.###.###uh-huh.###."
     },
     {
@@ -277,14 +277,14 @@ items = [
     },
     {
         "Item_ID": "87654:14",
-        "OriginalSentence": "i guess some of the best things i've ever had , um, i, some of them were just hors d'oeuvres, you know.",
-        "ComparisonSentence": "i guess some, but not all of the best things i've ever had , um, i, some of them were just hors d'oeuvres, you know.",
+        "OriginalSentence": "i guess some of the best things i've ever had, um, i, some of them were just hors d'oeuvres, you know.",
+        "ComparisonSentence": "i guess some, but not all of the best things i've ever had, um, i, some of them were just hors d'oeuvres, you know.",
         "Context": "###.### that ar-, but those are homemade.###they are not, um, commercial bakery made.###and in that they are made --n405b57 in their homes, um,###so it, it's kind of interesting, uh,###it's out there if you want --n405c99 to pay the price###but,###.###oh, it is.###i mean, we have bakeries around here that, you know, you, you just gain weight --n405de6 going by the door --n405dfd##, you know, just like that.###.###right,###.###.###just smelling the air.###yeah.###.###right,###but i don't know"
     },
     {
         "Item_ID": "87654:69",
-        "OriginalSentence": "i guess some of the best things i've ever had , um, i, some of them were just hors d'oeuvres, you know.",
-        "ComparisonSentence": "i guess some of the best things i've ever had , um, i, some, but not all of them were just hors d'oeuvres, you know.",
+        "OriginalSentence": "i guess some of the best things i've ever had, um, i, some of them were just hors d'oeuvres, you know.",
+        "ComparisonSentence": "i guess some of the best things i've ever had, um, i, some, but not all of them were just hors d'oeuvres, you know.",
         "Context": "###.### that ar-, but those are homemade.###they are not, um, commercial bakery made.###and in that they are made --n405b57 in their homes, um,###so it, it's kind of interesting, uh,###it's out there if you want --n405c99 to pay the price###but,###.###oh, it is.###i mean, we have bakeries around here that, you know, you, you just gain weight --n405de6 going by the door --n405dfd##, you know, just like that.###.###right,###.###.###just smelling the air.###yeah.###.###right,###but i don't know"
     },
     {
@@ -751,8 +751,8 @@ items = [
     },
     {
         "Item_ID": "34501:47",
-        "OriginalSentence": "but it was on a higher level, you know, where there were some things that kids didn't understand  that adults did  ,",
-        "ComparisonSentence": "but it was on a higher level, you know, where there were some, but not all things that kids didn't understand  that adults did  ,",
+        "OriginalSentence": "but it was on a higher level, you know, where there were some things that kids didn't understand  that adults did ,",
+        "ComparisonSentence": "but it was on a higher level, you know, where there were some, but not all things that kids didn't understand  that adults did ,",
         "Context": "###.###oh, well, then it won't be too bad.###.###so, yeah.###.###you know, it wasn't impressive necessarily,###but it was better than it could have been.###.###right,###right.###and i was impressed with the fact that, um, it wasn't that childish.###.###yeah.###.###you know what i mean --n401c9a.###it wasn't,###my daughter's five,###i mean she understood everything.###she goes to almost all movies --n401de7 with us except, you know, r rated.###and she really enjoyed it,"
     },
     {
@@ -769,8 +769,8 @@ items = [
     },
     {
         "Item_ID": "24580:124",
-        "OriginalSentence": "and, and it's and it's based  on, on a perception that someone has  as how a drug user would behave  when some drug users behave, uh, normal , uh, you know.",
-        "ComparisonSentence": "and, and it's and it's based  on, on a perception that someone has  as how a drug user would behave  when some, but not all drug users behave, uh, normal , uh, you know.",
+        "OriginalSentence": "and, and it's and it's based  on, on a perception that someone has  as how a drug user would behave  when some drug users behave, uh, normal, uh, you know.",
+        "ComparisonSentence": "and, and it's and it's based  on, on a perception that someone has  as how a drug user would behave  when some, but not all drug users behave, uh, normal, uh, you know.",
         "Context": "###.###.###right.###.###but i think that might be a violation of someone's rights.###if someone's having personal problems --n402c07 for some reason that --n402c1e's causing them to h-, behave differently###.###right.###.###and their manager assumes they have a drug problem###.###.###i mean if someone assumed that of me, i would be upset.###.###right,###right.###yeah,### it, it would almost be like a, a, uh...###.###it's an accusation,"
     },
     {
@@ -811,8 +811,8 @@ items = [
     },
     {
         "Item_ID": "77398:5",
-        "OriginalSentence": "some of the people that i work with  they, like when i worked on second shift , um, their paren-, their kids go to school during the day",
-        "ComparisonSentence": "some, but not all of the people that i work with  they, like when i worked on second shift , um, their paren-, their kids go to school during the day",
+        "OriginalSentence": "some of the people that i work with  they, like when i worked on second shift, um, their paren-, their kids go to school during the day",
+        "ComparisonSentence": "some, but not all of the people that i work with  they, like when i worked on second shift, um, their paren-, their kids go to school during the day",
         "Context": "### i don't, i don't have that choice.###.###yeah,###same here.###.###um, i have --n401ae8 to be at work at, at x hour, you know, at just, at, at a certain hour###and i can't, it's not flexible.###.###yeah.###.###um, it, it --n401d89 would be nice to be able --n401dac to have flexible hours### and, and maybe after we decide --n401eba to have kids i, i might find a job that --n401eed has flexible hours.### i woul-, i hope so anyway.###um, but i would, i don't know.###.###at t i, is that where you work --n402175.###.###uh-huh.###.###it's really kind of sad,"
     },
     {
@@ -853,8 +853,8 @@ items = [
     },
     {
         "Item_ID": "95199:151",
-        "OriginalSentence": "but when time came  to direct their ability to make choices to develop the kinds of things that, that they're going  to need   to interact with other people  , i felt like i needed some strong influence there.",
-        "ComparisonSentence": "but when time came  to direct their ability to make choices to develop the kinds of things that, that they're going  to need   to interact with other people  , i felt like i needed some, but not all strong influence there.",
+        "OriginalSentence": "but when time came  to direct their ability to make choices to develop the kinds of things that, that they're going  to need   to interact with other people , i felt like i needed some strong influence there.",
+        "ComparisonSentence": "but when time came  to direct their ability to make choices to develop the kinds of things that, that they're going  to need   to interact with other people , i felt like i needed some, but not all strong influence there.",
         "Context": "###.###so i quit --n404820 working after my kids started to school and got involved in volunteer work in their private school so that i could help --n40487f direct their, their learning experiences and their development.###.###oh, you did.###.###.###um.###.###.###yeah,###yeah.###.### i, i felt like that anybody who --n404aad cared and loved the kids could change their diapers and feed them and bathe them and hold them.###.###uh-huh.###.###.###yes,###yes,###."
     },
     {
@@ -1069,8 +1069,8 @@ items = [
     },
     {
         "Item_ID": "65999:146",
-        "OriginalSentence": "but, uh, you know, i think, uh, they, maybe they need  to, uh, help  promote that more. give incentives like, uh, if they do bring somebody on, they will pay some of their costs or give tax breaks or whatever it is , you know, for them to train people, you know, stuff like that.",
-        "ComparisonSentence": "but, uh, you know, i think, uh, they, maybe they need  to, uh, help  promote that more. give incentives like, uh, if they do bring somebody on, they will pay some, but not all of their costs or give tax breaks or whatever it is , you know, for them to train people, you know, stuff like that.",
+        "OriginalSentence": "but, uh, you know, i think, uh, they, maybe they need  to, uh, help  promote that more. give incentives like, uh, if they do bring somebody on, they will pay some of their costs or give tax breaks or whatever it is, you know, for them to train people, you know, stuff like that.",
+        "ComparisonSentence": "but, uh, you know, i think, uh, they, maybe they need  to, uh, help  promote that more. give incentives like, uh, if they do bring somebody on, they will pay some, but not all of their costs or give tax breaks or whatever it is, you know, for them to train people, you know, stuff like that.",
         "Context": "###yes.###.###okay.###.###wow.###.###mumblex###yeah,###it was a cordless phone,###and all of a sudden we had a bad, uh, frequency --n404685 there or something.###so we had some interference,###so i changed that.###.###yeah.###it sounded you were calling from around the world somewhere.###.###anyway, so, uh,###.###well,###."
     },
     {
@@ -1099,8 +1099,8 @@ items = [
     },
     {
         "Item_ID": "103624:72",
-        "OriginalSentence": "it's just, you know, a possible solution in the future, i think , maybe to help in some ways.",
-        "ComparisonSentence": "it's just, you know, a possible solution in the future, i think , maybe to help in some, but not all ways.",
+        "OriginalSentence": "it's just, you know, a possible solution in the future, i think, maybe to help in some ways.",
+        "ComparisonSentence": "it's just, you know, a possible solution in the future, i think, maybe to help in some, but not all ways.",
         "Context": "###uh-huh..###uh-huh.###.###and we have enough clouds that, uh,###there are other areas that --n404344 would be better suited.###that surprised me because i think, we have a tremendous amount of, um, sunny days.###.###.### and, and it,###yes,###it can be used --n40454a###and it can help###but, uh, that was a problem that they were still working --n4045f8 on.###but,###.###oh yeah.### it, it's still got a long way to go --n404716.###.###well i,###."
     },
     {
@@ -1123,8 +1123,8 @@ items = [
     },
     {
         "Item_ID": "32005:38",
-        "OriginalSentence": "and his, uh, son built him a garage and got him some, uh, oh, i don't know what the equipment's called  , but planers and things and s-, set him up,",
-        "ComparisonSentence": "and his, uh, son built him a garage and got him some, but not all  uh, oh, i don't know what the equipment's called  , but planers and things and s-, set him up,",
+        "OriginalSentence": "and his, uh, son built him a garage and got him some, uh, oh, i don't know what the equipment's called , but planers and things and s-, set him up,",
+        "ComparisonSentence": "and his, uh, son built him a garage and got him some, but not all  uh, oh, i don't know what the equipment's called , but planers and things and s-, set him up,",
         "Context": "###yeah, uh,###.###you know, after a while you make some stuff,###then you start --n404df7 looking at it,### go, boy, this, this is kind of ugly.###.###.###but i know someone who --n404f34 does a lot of woodworking for a hobby.###um, he does it, believe it or not, i wouldn't imagine why, but to get out of the house, away from his wife,###because he's a seasonal worker,###he works in the construction.###and up here it's almost a pattern,###and you see your fathers do it,###then their sons do it.###what they do --n40536d is they work construction,###.###yeah.###.###then they get laid --n405428 off for like twelve weeks in the winter.###and, uh, this guy was going nuts,"
     },
     {
@@ -1153,8 +1153,8 @@ items = [
     },
     {
         "Item_ID": "164050:47",
-        "OriginalSentence": "but there's so many occasions when i've had  to move some members of the family or do this or that ,",
-        "ComparisonSentence": "but there's so many occasions when i've had  to move some, but not all members of the family or do this or that ,",
+        "OriginalSentence": "but there's so many occasions when i've had  to move some members of the family or do this or that,",
+        "ComparisonSentence": "but there's so many occasions when i've had  to move some, but not all members of the family or do this or that,",
         "Context": "###something that --n40173d will carry it around careful, i guess --n401768 is best, best way to describe it --n401797.###right now, we've got a v six###and it, that seems --n401945 to be just fine.###i know they s-, they're coming out with some v eight now###and i think that's probably a little over kill for this day and age.###.###yeah,###i was surprised --n401bad to hear that the v eights are coming back,###so, they've got some pretty powerful sixes.###.###uh-huh.###.###and, uh, you know, v eights seem --n401d12 to be a return to the days of, you know, ten or twelve miles a gallon.###.###right.### i, uh, i drive a, a truck, a ford truck.### i, i like trucks because they're spacious,###and it's handy to haul things.###uh, it's not related to my business,###i just really use it, basically, for transportation,"
     },
     {
@@ -1219,8 +1219,8 @@ items = [
     },
     {
         "Item_ID": "161396:28",
-        "OriginalSentence": "uh, and some of, some stuff that i like , uh,",
-        "ComparisonSentence": "uh, and some, but not all of, some, but not all stuff that i like , uh,",
+        "OriginalSentence": "uh, and some of, some stuff that i like, uh,",
+        "ComparisonSentence": "uh, and some, but not all of, some, but not all stuff that i like, uh,",
         "Context": "###.###yeah,### i can, i can believe that.###what kind of things --n402a91 are you, do you like --n402ab0 in classical.###what's the standard --n402b7b.###.###uh,###.###.###stuff that i like --n402be6,###uh, i like bach.###i tolerate vivaldi.###i can't, stand, uh, uh, debussy or debussy.###.###.###uh, uh, i like tchaikovsky.###he can make a lot of noise when he's, uh, so inclined --n402dfd.###.###oh, yes.###."
     },
     {
@@ -1237,8 +1237,8 @@ items = [
     },
     {
         "Item_ID": "73491:25",
-        "OriginalSentence": "and, uh, when i seen some of my friends that  have taken that six week old baby, you know, to someone else , it's just, i can imagine how emotional it must be .",
-        "ComparisonSentence": "and, uh, when i seen some, but not all of my friends that  have taken that six week old baby, you know, to someone else , it's just, i can imagine how emotional it must be .",
+        "OriginalSentence": "and, uh, when i seen some of my friends that  have taken that six week old baby, you know, to someone else, it's just, i can imagine how emotional it must be .",
+        "ComparisonSentence": "and, uh, when i seen some, but not all of my friends that  have taken that six week old baby, you know, to someone else, it's just, i can imagine how emotional it must be .",
         "Context": "###sure.###sure.###.###there are those times when i think, gee, if i didn't have children i could be out --n402e81 playing bridge or golf --n402e98.###.###right.###right.###right.###right.###but, you know, it's funny.### i did, i had a friend that --n403099 said, you know, before we always said we don't want children because we can't go off on the spur of the moment or this or that and the other###and she got older###and she said, but you know, we never do those things anyway.###so why, why am i waiting, you know --n4033f1,### it's, it's just the way your attitude changes --n4034b9###and you mature i suppose --n403580.###but the thing about the child care i, you know, i have friends that --n403619 struggle financially### and, and they both do have --n403719 to work.###it's a matter --n4037c0 not necessarily, uh, that she --n4037e3 might want --n4037f2 to stay home or he, as well,###but, you know, they need the money."
     },
     {
@@ -1333,8 +1333,8 @@ items = [
     },
     {
         "Item_ID": "175724:80",
-        "OriginalSentence": "well, i, i, i think we did, i think we did learn some lessons that we weren't, uh, we weren't prepared for ,",
-        "ComparisonSentence": "well, i, i, i think we did, i think we did learn some, but not all lessons that we weren't, uh, we weren't prepared for ,",
+        "OriginalSentence": "well, i, i, i think we did, i think we did learn some lessons that we weren't, uh, we weren't prepared for,",
+        "ComparisonSentence": "well, i, i, i think we did, i think we did learn some, but not all lessons that we weren't, uh, we weren't prepared for,",
         "Context": "###.###uh-huh.###.### looking back, it seems like that was only partly true. that, uh, there might have been a better place to draw the line --n401e7e.###uh, i guess you can, i guess you can say that a, a certain amount of resolve and willingness to fight, uh, brought the cold war to an end.###but i don't think you can just fight anywhere just, just in order --n402207 to, uh, call the bully out and beat him.###and i have a feeling that that's part of what --n402372 was involved in the vietnamese war.###they felt like this was a place where we could draw a line, beat them and they wouldn't come forward --n40249e.###.###.###and, uh we were wrong.###.###uh-huh.###.###but i, uh, you know,### the, like i said, the more i hear --n40269a about it, the more i can see each decision that --n4026cd was made --n4026dc as --n4026e7 being understandable --n4026f6.###but the accumulative effect was to really get into a, a hopeless situation where,###and as you say, uh, going halfway was probably worse than, uh, committing, uh, committing to a completely and, uh, winning it, whatever that would mean --n4029e7.###.###yeah."
     },
     {
@@ -1375,8 +1375,8 @@ items = [
     },
     {
         "Item_ID": "13087:15",
-        "OriginalSentence": "and, uh, some of those old ones , of course, bob wills, miss texas playboys ernest tubbs and red foley an,",
-        "ComparisonSentence": "and, uh, some, but not all of those old ones , of course, bob wills, miss texas playboys ernest tubbs and red foley an,",
+        "OriginalSentence": "and, uh, some of those old ones, of course, bob wills, miss texas playboys ernest tubbs and red foley an,",
+        "ComparisonSentence": "and, uh, some, but not all of those old ones, of course, bob wills, miss texas playboys ernest tubbs and red foley an,",
         "Context": "###smiley burnette,###i don't know if you were old enough to remember him him.###.###i've heard the name.###.###he was, uh, played in the old western movies.###he was the sidekick of gene autry i believe --n406b13###.###huh.###.###or they,###i think his name in, in the movie was froggy###and,###.### i've, i've never seen a gene autry movie,###.### had a real raspy voice,###.###huh.###."
     },
     {
@@ -1507,8 +1507,8 @@ items = [
     },
     {
         "Item_ID": "79355:11",
-        "OriginalSentence": "they had some bends , around that we could find and put them in",
-        "ComparisonSentence": "they had some, but not all bends , around that we could find and put them in",
+        "OriginalSentence": "they had some bends, around that we could find and put them in",
+        "ComparisonSentence": "they had some, but not all bends, around that we could find and put them in",
         "Context": "###.###okay.###.###uh, anyhow, they have facilities --n40073b here in my apartment complex for recycling paper only.###uh, i've been recycling for maybe about two years now and, at ano-, ano-, another public facility where they have, you know, recycling of glass, uh, aluminum and paper --n4008bd.###.###uh-huh.###.###now,###.### have you, have you cycled, recycled plastic also.###.###no,###and that's what i, i don't understand --n400b93 exactly why they don't have that option --n400bba.###.### we, we have out here###uh, up until just this last year in on you are town there wasn't any really good way,###.###uh-huh.###."
     },
     {
@@ -2071,8 +2071,8 @@ items = [
     },
     {
         "Item_ID": "161668:20",
-        "OriginalSentence": "you actually, some catamarans you can actually pull people  behind , the skiers,",
-        "ComparisonSentence": "you actually, some, but not all catamarans you can actually pull people  behind , the skiers,",
+        "OriginalSentence": "you actually, some catamarans you can actually pull people  behind, the skiers,",
+        "ComparisonSentence": "you actually, some, but not all catamarans you can actually pull people  behind, the skiers,",
         "Context": "###yeah.###.###so it's, it's not too bad,###it's pretty easy to get the hang of --n403751, i think --n403768###and, uh, generally, everybody i've, i've known --n403852 has kind of gotten into it,###but some people are more motorboaters, you know which --n40397e is fine.###.###yeah.###.###.###well, that's about all we have --n403a5f.###.###yeah,###yeah,###lot of people don't, don't see the excitement in sailing,###but, then, again, they may nev-, m-, they may never have tried anything like, uh, catamaran###.###uh-huh.###.###and, uh, that's when you really start --n403d87 getting into speed --n403d9a. you know,"
     },
     {
@@ -2113,14 +2113,14 @@ items = [
     },
     {
         "Item_ID": "9455:69",
-        "OriginalSentence": "well, i mean, i, i, i guess i've been in some places, you know, where the weather was just so mild , you know, places like monterey, california or, you know,",
-        "ComparisonSentence": "well, i mean, i, i, i guess i've been in some, but not all places, you know, where the weather was just so mild , you know, places like monterey, california or, you know,",
+        "OriginalSentence": "well, i mean, i, i, i guess i've been in some places, you know, where the weather was just so mild, you know, places like monterey, california or, you know,",
+        "ComparisonSentence": "well, i mean, i, i, i guess i've been in some, but not all places, you know, where the weather was just so mild, you know, places like monterey, california or, you know,",
         "Context": "###oh, wow.###.###and, we, you, you just get used to air conditioning all the time,###.###oh yes.###.###and this,###it was just,###the humidity was like eighty plus, eighty percent plus###and it was just killing us.###.###oh yeah,###it's terrible.###orlando is the only place i've ever been --n402b48 where i've seen the car sweat --n402b6b.###.###yeah.###.###i mean, that's really bad.###.###yeah,"
     },
     {
         "Item_ID": "140415:37",
-        "OriginalSentence": "um, well before we built our home we were managing some apartments that we were living in ,",
-        "ComparisonSentence": "um, well before we built our home we were managing some, but not all apartments that we were living in ,",
+        "OriginalSentence": "um, well before we built our home we were managing some apartments that we were living in,",
+        "ComparisonSentence": "um, well before we built our home we were managing some, but not all apartments that we were living in,",
         "Context": "###.###uh-huh.###.###uh-huh.###.###first house.###.###we've lived in ours for about six years.###we had it built --n400356, actually.###.###uh-huh.###.###and, uh, uh, it's our first home, too.###.###uh-huh.###.###yeah.###.###so what do you think --n4004ab of, of owning a home as opposed to, to renting somebody else's.###."
     },
     {
@@ -2191,8 +2191,8 @@ items = [
     },
     {
         "Item_ID": "110384:95",
-        "OriginalSentence": "but i've really noticed that there are a lot of, uh, a lot more people that  are more comfortable, at least, with some women being home and, at least in the circles i've travelled  and in the church that i go to , you know,",
-        "ComparisonSentence": "but i've really noticed that there are a lot of, uh, a lot more people that  are more comfortable, at least, with some, but not all women being home and, at least in the circles i've travelled  and in the church that i go to , you know,",
+        "OriginalSentence": "but i've really noticed that there are a lot of, uh, a lot more people that  are more comfortable, at least, with some women being home and, at least in the circles i've travelled  and in the church that i go to, you know,",
+        "ComparisonSentence": "but i've really noticed that there are a lot of, uh, a lot more people that  are more comfortable, at least, with some, but not all women being home and, at least in the circles i've travelled  and in the church that i go to, you know,",
         "Context": "###.###but it's like, you know, here these people are --n40322e,###they're going to school, getting degrees, making all this money,###and, you know, they kind of looked at me like i was from the dark ages, you know, like i, because i didn't have really all that much to talk about --n4033fd, uh, where career and things like that were concerned --n403430,###and you kind of feel little bit like an outcast for a while in social situations sometimes,###.###yeah.###.###which --n403723 is too bad, because, you know, i, i feel like i don't, obviously i don't get paid --n403796 for my job,###but i should get paid --n40390e at least double what my husband makes --n403931 --n403938 working in an office for staying home###.###yeah.###.###that's what i figure --n403a6e,###i'm worth a lot just for what i do --n403af2 every day,###but, you know, i don't know,###this is kind of a, um,### at, at least here i've noticed,###i'm not from here,###i'm from colorado,"
     },
     {
@@ -2233,8 +2233,8 @@ items = [
     },
     {
         "Item_ID": "92394:53",
-        "OriginalSentence": "i mean, there there's a little bit, because there's some of those english words that you just don't exactly know what they mean  ,",
-        "ComparisonSentence": "i mean, there there's a little bit, because there's some, but not all of those english words that you just don't exactly know what they mean  ,",
+        "OriginalSentence": "i mean, there there's a little bit, because there's some of those english words that you just don't exactly know what they mean ,",
+        "ComparisonSentence": "i mean, there there's a little bit, because there's some, but not all of those english words that you just don't exactly know what they mean ,",
         "Context": "###well, we, um,### let's see,###the only other place i've ever vacationed --n4028a5, we'd, you know, go on camping trips up to texoma and things like that.###.###uh-huh.###.###and then i went to england a few years ago.###.###oh, that's exciting.###.###i was a, student there and spent, um, a semester --n402b1c studying abroad in london.###.###uh-huh.###.###.###uh-huh.###.###and that was a great time, because it's so, that's such a neat place###and it's, there's not a language barrier###so you don't,"
     },
     {
@@ -2245,8 +2245,8 @@ items = [
     },
     {
         "Item_ID": "112058:22",
-        "OriginalSentence": "i sometimes have a problem with some of the, especially more famous people who  all of a sudden are crawling out of the woodwork  to say that whatever problems they have , you know, was, was because they were abused a-, abused  as children.",
-        "ComparisonSentence": "i sometimes have a problem with some, but not all of the, especially more famous people who  all of a sudden are crawling out of the woodwork  to say that whatever problems they have , you know, was, was because they were abused a-, abused  as children.",
+        "OriginalSentence": "i sometimes have a problem with some of the, especially more famous people who  all of a sudden are crawling out of the woodwork  to say that whatever problems they have, you know, was, was because they were abused a-, abused  as children.",
+        "ComparisonSentence": "i sometimes have a problem with some, but not all of the, especially more famous people who  all of a sudden are crawling out of the woodwork  to say that whatever problems they have, you know, was, was because they were abused a-, abused  as children.",
         "Context": "###.###well i did hear the end of the prompt this time.###was that you, that we didn't hear the whole prompt.###.###yes,###yes,###.###and it said that what, what do we, do we think that cri-, certain crimes should fit certain punishments,###and, uh, i was thinking about it after i got off the phone, that, that i really, you know, wish that there was some way to, uh, send a message --n400386 to people, you know, about, um, child abuse and things like that --n4003cd###.###uh-huh.###.###that, uh,###those kind of crimes deserve some kind of severe punishment.###too often i feel that --n4006e2 people get off, uh, without,###.###.###yeah,### i, i agree with you, although i will say,###i'm not sure, you know,"
     },
     {
@@ -2323,8 +2323,8 @@ items = [
     },
     {
         "Item_ID": "156671:38",
-        "OriginalSentence": "but if you could find a way to prevent some of it , and i'm not sure what it would be . it would be money better  spent than,",
-        "ComparisonSentence": "but if you could find a way to prevent some, but not all of it , and i'm not sure what it would be . it would be money better  spent than,",
+        "OriginalSentence": "but if you could find a way to prevent some of it, and i'm not sure what it would be . it would be money better  spent than,",
+        "ComparisonSentence": "but if you could find a way to prevent some, but not all of it, and i'm not sure what it would be . it would be money better  spent than,",
         "Context": "###but a lot of it's because everything society wants --n402e6d, we are supposed --n402e84 to do --n402e93.###.###uh-huh.###.###but that's another subject###but,###.###well, that's probably true.###w-,###.###anyway, i dealt with two or three kids --n403089 today that --n403098 are going --n4030a7 to end up where somebody has, making a decision what to do --n4030e6 with them --n4030f5.###.###um, yeah,###i guess that's not an easy solution.### there's, there's no easy solution for that.###.###uh-huh.###.###.### i don't, i don't know that there is an easy solution,"
     },
     {
@@ -2353,8 +2353,8 @@ items = [
     },
     {
         "Item_ID": "146544:24",
-        "OriginalSentence": "i do think that there are some significant kinds of things to to look for  , you know, if you are faced  with placing someone. in a place like that, uh, you know, aside from the cleanliness and the medical care that  is offered  and such",
-        "ComparisonSentence": "i do think that there are some, but not all significant kinds of things to to look for  , you know, if you are faced  with placing someone. in a place like that, uh, you know, aside from the cleanliness and the medical care that  is offered  and such",
+        "OriginalSentence": "i do think that there are some significant kinds of things to to look for , you know, if you are faced  with placing someone. in a place like that, uh, you know, aside from the cleanliness and the medical care that  is offered  and such",
+        "ComparisonSentence": "i do think that there are some, but not all significant kinds of things to to look for , you know, if you are faced  with placing someone. in a place like that, uh, you know, aside from the cleanliness and the medical care that  is offered  and such",
         "Context": "###uh-huh.###.###that way.###.###yes,###i would find it --n400bfd very difficult, uh, to, uh, place eit-, my father or my step-mother uh, in a place like that. particularly, since i know how they feel about it --n400c94.###.###uh-huh.###.###.###right,### it's basically, it's more how they feel about it --n400e89.###.###yes.###.###and it is like they feel, they are, uh, the way my mother would put it --n400fb3 like somebody had thrown them away. you know.###.###yes.###.###."
     },
     {
@@ -2695,8 +2695,8 @@ items = [
     },
     {
         "Item_ID": "8866:65",
-        "OriginalSentence": "and that, oh, i guess, ranges anywhere from, uh, carpentry work to, um, um, some types of furniture and, um, oh, i don't know what you would call them , knickknacks, i guess, stuff you hang  on the wall  to put a mirror on",
-        "ComparisonSentence": "and that, oh, i guess, ranges anywhere from, uh, carpentry work to, um, um, some, but not all types of furniture and, um, oh, i don't know what you would call them , knickknacks, i guess, stuff you hang  on the wall  to put a mirror on",
+        "OriginalSentence": "and that, oh, i guess, ranges anywhere from, uh, carpentry work to, um, um, some types of furniture and, um, oh, i don't know what you would call them, knickknacks, i guess, stuff you hang  on the wall  to put a mirror on",
+        "ComparisonSentence": "and that, oh, i guess, ranges anywhere from, uh, carpentry work to, um, um, some, but not all types of furniture and, um, oh, i don't know what you would call them, knickknacks, i guess, stuff you hang  on the wall  to put a mirror on",
         "Context": "###.###yeah.###.###all right.###.###all right.###well, nice talking to you.###.###nice talking to you.### have a good time.###.###all right.###bye-bye.###.###bye.###.###.###i guess, um, i'm going to school while i'm working at t i,###so there's not a whole a lot of time that i've got --n400141, uh, for hobbies it seems like --n400168 lately.###but one of the things that i do --n400281 when i've got some spare time --n4002a4 is i do some woodworking."
     },
     {
@@ -2725,8 +2725,8 @@ items = [
     },
     {
         "Item_ID": "2199:135",
-        "OriginalSentence": "and they did an analysis  for us based on what we were putting  in and the time frame that we wanted  to look at , and then gave us a good idea back, you know, some good information  back on whether or not we were going  to achieve those goals, and, or not, and what we needed  to do  so that we could achieve them and the money we could put  in at what time.",
-        "ComparisonSentence": "and they did an analysis  for us based on what we were putting  in and the time frame that we wanted  to look at , and then gave us a good idea back, you know, some, but not all good information  back on whether or not we were going  to achieve those goals, and, or not, and what we needed  to do  so that we could achieve them and the money we could put  in at what time.",
+        "OriginalSentence": "and they did an analysis  for us based on what we were putting  in and the time frame that we wanted  to look at, and then gave us a good idea back, you know, some good information  back on whether or not we were going  to achieve those goals, and, or not, and what we needed  to do  so that we could achieve them and the money we could put  in at what time.",
+        "ComparisonSentence": "and they did an analysis  for us based on what we were putting  in and the time frame that we wanted  to look at, and then gave us a good idea back, you know, some, but not all good information  back on whether or not we were going  to achieve those goals, and, or not, and what we needed  to do  so that we could achieve them and the money we could put  in at what time.",
         "Context": "###and we had an out, we had an existing i r a###so we have, both of us have some money in an i r a that we're also trying --n40381f to figure --n40382e,### to, put it, we're putting it in c d's right now,###.###uh-huh.###.###and then we're also looking at it in --n403a75 possibly getting a mutual fund.###.###yeah,###when ever we get enough saved --n403b54 we stick it in a c d for a while### and, then, uh, you know and then when, if we need it we wait until it, it's expired### and then so,###.###yeah.###the other thing that we've done --n403e67, that, that --n403e7e was really nice to see --n403ea1, we had one of the financial companies, um,### han-, uh, john hancock company came out###and their agent did a long term analysis based on salary and, uh, what we were pla-, what, what our, uh, goals were --n404121 on a long term budget in terms of retirement, kids college, paying off the house, buying a different house, um, special thing, buying land and building our own house###.###uh-huh.###."
     },
     {
@@ -2875,8 +2875,8 @@ items = [
     },
     {
         "Item_ID": "42183:38",
-        "OriginalSentence": "uh, i can't remember what the town was , some little area.",
-        "ComparisonSentence": "uh, i can't remember what the town was , some, but not all little area.",
+        "OriginalSentence": "uh, i can't remember what the town was, some little area.",
+        "ComparisonSentence": "uh, i can't remember what the town was, some, but not all little area.",
         "Context": "###no,###huh-uh.###.###mayb-,### it was, i think it was the south east area, from dallas.###.###oh, really.###.### my daughter, my daughter lives down in rowlett###.###yeah.###.###and she was telling me about it.###.###oh really.###.###yeah.###.###yeah.###."
     },
     {
@@ -2917,8 +2917,8 @@ items = [
     },
     {
         "Item_ID": "39025:60",
-        "OriginalSentence": "and whenever i go  visit my parents , they're always saying, well, bring some of your tapes.",
-        "ComparisonSentence": "and whenever i go  visit my parents , they're always saying, well, bring some, but not all of your tapes.",
+        "OriginalSentence": "and whenever i go  visit my parents, they're always saying, well, bring some of your tapes.",
+        "ComparisonSentence": "and whenever i go  visit my parents, they're always saying, well, bring some, but not all of your tapes.",
         "Context": "###i don't even watch t v very much.###i was tonight,###but,###.###yeah.###i was reading when you called --n403848.###.###yeah.###.###how about movies,###do you like --n40390d to go to movies.###.###yeah### i do,###i do like --n4039de to go to movies,###and i have a v c r,###so i like --n403ac1 to rent movies,###and, um, i have, right now i have the movie channel,###so i've recorded quite a few movies off of that.###um, just, i've kind of got a collection going of tapes now,"
     },
     {
@@ -2983,8 +2983,8 @@ items = [
     },
     {
         "Item_ID": "91333:59",
-        "OriginalSentence": "um, you know, when i first was applying for graduate schools , i applied to some big programs , you know, in this area, like stevens institute of technology, which  is recognized  in the northeast as, as, you know, one step below m i t in a sense, you know,",
-        "ComparisonSentence": "um, you know, when i first was applying for graduate schools , i applied to some, but not all big programs , you know, in this area, like stevens institute of technology, which  is recognized  in the northeast as, as, you know, one step below m i t in a sense, you know,",
+        "OriginalSentence": "um, you know, when i first was applying for graduate schools, i applied to some big programs, you know, in this area, like stevens institute of technology, which  is recognized  in the northeast as, as, you know, one step below m i t in a sense, you know,",
+        "ComparisonSentence": "um, you know, when i first was applying for graduate schools, i applied to some, but not all big programs, you know, in this area, like stevens institute of technology, which  is recognized  in the northeast as, as, you know, one step below m i t in a sense, you know,",
         "Context": "###.###yeah.###.###but i think,###yeah,###see, i'm, i'm at the university of maryland,###so in this, this region, um, though i go to a smaller branch of the university of maryland,###my diploma will still say university of maryland.###.###oh.###.###um, you know, it doesn't, doesn't differentiate on my diploma,###though i would put it on my resume, what program i went to --n4053a8.###but i, i think, you know, i'm actually at a smaller program,###i'm not at the col-, the big college park campus, you know,###that's the big one with the football team.###.###yeah.###.###so i, i think, um, i think you're right, that there's a lot of, there's difficult decisions --n405725 there based on name recognition."
     },
     {
@@ -3031,8 +3031,8 @@ items = [
     },
     {
         "Item_ID": "142780:82",
-        "OriginalSentence": "as far as the rangers are concerned , i think, i think they need some, definitely need some pitching.",
-        "ComparisonSentence": "as far as the rangers are concerned , i think, i think they need some, but not all  definitely need some, but not all pitching.",
+        "OriginalSentence": "as far as the rangers are concerned, i think, i think they need some, definitely need some pitching.",
+        "ComparisonSentence": "as far as the rangers are concerned, i think, i think they need some, but not all  definitely need some, but not all pitching.",
         "Context": "###.###i'm awful sorry he's not still.###.###oh, yeah,###but you know, what, he,###that was a great deal for him.###.###oh, i'm sure it was.###.###yeah,###it was a great deal for him### and, and, uh, he just signed on, uh,###i think it was like a five year deal with, uh pittsburgh.###.###pittsburgh.###.###.###yeah.###.###so, you know, he's real happy there."
     },
     {
@@ -3085,8 +3085,8 @@ items = [
     },
     {
         "Item_ID": "169902:90",
-        "OriginalSentence": "i, i think sometimes, you know, i've noticed, uh, people asking for, uh, some of the patients asking for things , uh, just repetitively and, but things that  are not reasonable,",
-        "ComparisonSentence": "i, i think sometimes, you know, i've noticed, uh, people asking for, uh, some, but not all of the patients asking for things , uh, just repetitively and, but things that  are not reasonable,",
+        "OriginalSentence": "i, i think sometimes, you know, i've noticed, uh, people asking for, uh, some of the patients asking for things, uh, just repetitively and, but things that  are not reasonable,",
+        "ComparisonSentence": "i, i think sometimes, you know, i've noticed, uh, people asking for, uh, some, but not all of the patients asking for things, uh, just repetitively and, but things that  are not reasonable,",
         "Context": "###so it --n40156d's hard to tell how much of that --n401598 rubs off on those who --n4015b3 are struggling --n4015c2 to r-, to retain, uh, clarity, say, uh, you know.###.###from the lack of stimulation, you mean --n4017c5.###.###yeah.###well i, i don-, i don't know.### we, we --n40192d also, my wife and i, uh, uh, volunteer --n401964 to go to a, uh, nursing home that --n401993's just a mile from our house.### we, uh, she goes more often than i.###we used --n401bb3 to go once a month, once every two months --n401be2 to visit some of the patients there.###and we'd take, we have a two year old son###and so we, sometimes we'd take him with us.###and, uh, there i would say it's the same thing.### it's, it's a nice, uh, relatively nice environment###but again, um, it must be depressing for the people who, who --n402040 are, who --n402057 are just e-, e-, essentially not able --n40209e to take care of themselves in their own house but, but, certainly, uh, certainly have ar-, ar-, are, have retained all of their, uh, mental skills and so on.###it --n4024d8's, must be depressing to, to walk, walk the halls and see, an-, and see all these other people who --n40256b really don't know where they are --n40258e.###.###do you think that in the case of the one that you've actually had some experience with --n4027a3, that the people who --n4027be operate it seem --n4027d1 to have, what you'd perceive of --n4027f8 as genuine concern.###.###i think, yeah,###i think they're relatively re-, respectful. yeah and, and concerned that, in as much as they can be."
     },
     {
@@ -3205,8 +3205,8 @@ items = [
     },
     {
         "Item_ID": "102998:7",
-        "OriginalSentence": "but some of the different things we're doing , uh there's just not a time, enough time to do it all",
-        "ComparisonSentence": "but some, but not all of the different things we're doing , uh there's just not a time, enough time to do it all",
+        "OriginalSentence": "but some of the different things we're doing, uh there's just not a time, enough time to do it all",
+        "ComparisonSentence": "but some, but not all of the different things we're doing, uh there's just not a time, enough time to do it all",
         "Context": "###.###no,###that was one, uh, jay got --n404bf0 to see --n404bff with a friend###and so i###.###uh.###.###and to try and, uh, try and find time it --n404d33's hard, uh, with jim's schedule, too, just to get a time that we can both go --n404d96.###.###oh yeah.###.###and, uh, i'm holding out for city slickers for the two of us because, uh, we had friends that --n404f9c went --n404fa7 to see that and said, you know, it's just perfect for our age group###.###uh-huh.###.### and because i think he, he needs a comedy, too.###uh, and that --n4052a7's what he would have liked --n4052c6 to have seen --n4052d9 regarding henry, too,###but knew that, uh,### we've, we've got a lot of company this summer, which --n40544e is wonderful.###we're really enjoying it"
     },
     {
@@ -3217,8 +3217,8 @@ items = [
     },
     {
         "Item_ID": "133518:49",
-        "OriginalSentence": "well, it went pretty well, uh, other than the fact that we encountered some, uh, problems that you run across  in older homes with plumbing, which one thing led to another ,",
-        "ComparisonSentence": "well, it went pretty well, uh, other than the fact that we encountered some, but not all  uh, problems that you run across  in older homes with plumbing, which one thing led to another ,",
+        "OriginalSentence": "well, it went pretty well, uh, other than the fact that we encountered some, uh, problems that you run across  in older homes with plumbing, which one thing led to another,",
+        "ComparisonSentence": "well, it went pretty well, uh, other than the fact that we encountered some, but not all  uh, problems that you run across  in older homes with plumbing, which one thing led to another,",
         "Context": "### and then they and then the people default on the loans.###.###and then they don't provide very much education.###.###.###yes.###.###well, i would have --n4041eb to agree with you if there are circumstances like that, uh, around, uh,###and i, i, i can't confess to --n404339 having any substantial knowledge of that sort of thing,### but, but --n404461 taking what you're saying --n40447c at face value, then i would have --n4044a3 to agree with completely.###.###yeah.###.###.###you've done.###.###our most recent series of projects i guess --n400074, was, inside was, uh, we remodeled a bathroom recently.###.###well, how did it go --n4001c5.###."
     },
     {
@@ -3355,8 +3355,8 @@ items = [
     },
     {
         "Item_ID": "105485:20",
-        "OriginalSentence": "but, uh, we did some water skiing , of course, and, and, uh, driving around the lake in the boat",
-        "ComparisonSentence": "but, uh, we did some, but not all water skiing , of course, and, and, uh, driving around the lake in the boat",
+        "OriginalSentence": "but, uh, we did some water skiing, of course, and, and, uh, driving around the lake in the boat",
+        "ComparisonSentence": "but, uh, we did some, but not all water skiing, of course, and, and, uh, driving around the lake in the boat",
         "Context": "###-n4010db to learn the maneuvers you had to make --n401106 to work your way down a lake or work back up against the, the wind, as it were, --n401161 tacking back and forth###and, uh, more than once we'd get out there on a really stormy day###and, uh, the storm or the wind was due to the front blowing###and as soon as the front came over, it was calm.###so you're out in the middle of nowhere with a paddle###and you paddle your way back in and hope it doesn't start --n4015d0 raining on you right away.###and that didn't always work.###we oftentimes got wet,.###but, uh, it's, it's a nice, nice hobby to have --n401797.###nowadays i don't think i could afford the boat or the time,###nor do we live that close to a lake anymore,###so things change, i guess --n4019d9.###what are your memories of boating --n401a53,###or current,###.###uh, about the only memories that i have --n401afb of boating, uh,###my husband's family had a, a motor boat, uh, when we got engaged --n401bdf --n401be6###and they took us out on the lake several times.###and, uh, i really did enjoy that.### i, i don't know that i ever learned --n401dc8 to drive it or anything,"
     },
     {
@@ -3619,8 +3619,8 @@ items = [
     },
     {
         "Item_ID": "172589:128",
-        "OriginalSentence": "when you have the, when you have the, uh, the economy to scale and everything that a large corporation has  , and you can, uh, offer some incentive",
-        "ComparisonSentence": "when you have the, when you have the, uh, the economy to scale and everything that a large corporation has  , and you can, uh, offer some, but not all incentive",
+        "OriginalSentence": "when you have the, when you have the, uh, the economy to scale and everything that a large corporation has , and you can, uh, offer some incentive",
+        "ComparisonSentence": "when you have the, when you have the, uh, the economy to scale and everything that a large corporation has , and you can, uh, offer some, but not all incentive",
         "Context": "###that's right.###.###uh, i guess that would be up there.###uh, i'm not sure if i would rank, uh, how i would rank that --n4012ac next to, say compared to retirement###or, uh, uh, uh, pretax savings was another thing that i think --n40143f is a a great, a great benefit mumblex.###.###uh-huh.###.###.###right.###.###and i, i think it's really something that the, uh, the government ought --n40161c to encourage --n40162b more because, uh, there are all these complaints about how we're not a saving country --n40167a and where the average savings rate is something like four percent in this country and fifteen percent in, uh, germany and japan --n4016e1.###uh,###.###right.###.###.###well, it --n40199c's a lot easier to, to save it when you don't get your hands on it first --n4019f3.###.###right."
     },
     {
@@ -3757,8 +3757,8 @@ items = [
     },
     {
         "Item_ID": "63963:80",
-        "OriginalSentence": "i, i wonder about some of the prod-, products that they don't take , like some of the plastics and things that they don't take . uh, why, why they couldn't do more recycling with those .",
-        "ComparisonSentence": "i, i wonder about some, but not all of the prod-, products that they don't take , like some, but not all of the plastics and things that they don't take . uh, why, why they couldn't do more recycling with those .",
+        "OriginalSentence": "i, i wonder about some of the prod-, products that they don't take, like some of the plastics and things that they don't take . uh, why, why they couldn't do more recycling with those .",
+        "ComparisonSentence": "i, i wonder about some, but not all of the prod-, products that they don't take, like some, but not all of the plastics and things that they don't take . uh, why, why they couldn't do more recycling with those .",
         "Context": "###yeah.###.###that was surprising to me.###.###um.###.###i missed that question, totally, i mean really bad.###i'm trying --n403ab0 to think,###i didn't miss too many,###i can't remember what my score was --n403b89,###but i did exceeding well.###i was surprised.###but i didn't realize that our garbage isn't being decomposed --n403ca6.###that was a shocker to me.###.###yeah,###well there are a lot of things that --n403db8 aren't,###i'm,###that's, uh, one of the things i wonder about --n403ebb,###uh, one of the questions was, do you think more --n403f8d should be done --n403fa0, or something else."
     },
     {
@@ -3913,8 +3913,8 @@ items = [
     },
     {
         "Item_ID": "7100:11",
-        "OriginalSentence": "well, and some people use one credit card  to pay for another credit card they own ,",
-        "ComparisonSentence": "well, and some, but not all people use one credit card  to pay for another credit card they own ,",
+        "OriginalSentence": "well, and some people use one credit card  to pay for another credit card they own,",
+        "ComparisonSentence": "well, and some, but not all people use one credit card  to pay for another credit card they own,",
         "Context": "###well, it --n4032ee's interesting, uh, that, uh, people have the, generally the same view. of credit cards, no matter where you go --n403361.###.###yeah.###.###.###uh-huh.###.###.###yeah.###.###.###and, then, some people they get so wrapped up in them that they find, you know, one day they find, wow, i didn't realize i had this much, you know, i'd spent this much money.###.###that much stuff.###.###.###right.###.###and, then they can't meet the minimum monthly payments on it.###."
     },
     {
@@ -3931,8 +3931,8 @@ items = [
     },
     {
         "Item_ID": "77852:30",
-        "OriginalSentence": "we, although we have some relatives in the area that we, we see , we,",
-        "ComparisonSentence": "we, although we have some, but not all relatives in the area that we, we see , we,",
+        "OriginalSentence": "we, although we have some relatives in the area that we, we see, we,",
+        "ComparisonSentence": "we, although we have some, but not all relatives in the area that we, we see, we,",
         "Context": "###.###.###yeah,###yeah.###.###they were fifty miles away###but,###.###see, and we're,###uh, that,### we, i, i grew up with, you know###every weekend there was some visiting somewhere.###.###uh-huh.###.###um, and it was sort of an italian family,###.###um.###.###um, but my children,"
     },
     {
@@ -4069,8 +4069,8 @@ items = [
     },
     {
         "Item_ID": "118955:17",
-        "OriginalSentence": "these, some of these young kids you read about ,  just doesn't bother them to kill someone at all",
-        "ComparisonSentence": "these, some, but not all of these young kids you read about ,  just doesn't bother them to kill someone at all",
+        "OriginalSentence": "these, some of these young kids you read about,  just doesn't bother them to kill someone at all",
+        "ComparisonSentence": "these, some, but not all of these young kids you read about,  just doesn't bother them to kill someone at all",
         "Context": "###that's,###i thi-,###i agree,###i think that's where it stems from --n401fff, is that###and, um, you know, you've got a lot of, a lot more women that --n4020ee are working nowadays that --n402105 aren't home with the children###.###uh-huh.###.###.###right###and,###.###and that may impact it as well.###.###i think so,### and, and then there's a drop in, uh, the training of morals, really, you know.###.###right,###right.###."
     },
     {
@@ -4177,8 +4177,8 @@ items = [
     },
     {
         "Item_ID": "125651:10",
-        "OriginalSentence": "um, some of the qualifications that i look for  was that, uh, you know, the cost, and, um, exactly what they did , if it was structured or nonstructured, if they had a little academic, um, uh, in there, and, um, you know, um, you know, what the qualifications of the teachers' were , and if the place was clean and um, the hours",
-        "ComparisonSentence": "um, some, but not all of the qualifications that i look for  was that, uh, you know, the cost, and, um, exactly what they did , if it was structured or nonstructured, if they had a little academic, um, uh, in there, and, um, you know, um, you know, what the qualifications of the teachers' were , and if the place was clean and um, the hours",
+        "OriginalSentence": "um, some of the qualifications that i look for  was that, uh, you know, the cost, and, um, exactly what they did, if it was structured or nonstructured, if they had a little academic, um, uh, in there, and, um, you know, um, you know, what the qualifications of the teachers' were, and if the place was clean and um, the hours",
+        "ComparisonSentence": "um, some, but not all of the qualifications that i look for  was that, uh, you know, the cost, and, um, exactly what they did, if it was structured or nonstructured, if they had a little academic, um, uh, in there, and, um, you know, um, you know, what the qualifications of the teachers' were, and if the place was clean and um, the hours",
         "Context": "###this is laurie,###and i'm in garland.###.###oh, okay.###um, would you like me to go first.###.###sure.###.###okay, um###i have three children, um, two, two who --n4002ad are in regular school, uh, eleven year old, an eight year old,###and then my little one, three year old, is in, um, a university of gymnastics,###it's a, a preschool###.###uh-huh.###.###and, um, i think it --n400564 was really hard to, um, to pick the right, uh, day care or preschool or mother's day out.###i guess you can classify them all together.###.###uh-huh.###."
     },
     {
@@ -4267,8 +4267,8 @@ items = [
     },
     {
         "Item_ID": "116252:35",
-        "OriginalSentence": "i, i think there are some areas where we, where we, uh, pretty well, you know, get our money's worth ,",
-        "ComparisonSentence": "i, i think there are some, but not all areas where we, where we, uh, pretty well, you know, get our money's worth ,",
+        "OriginalSentence": "i, i think there are some areas where we, where we, uh, pretty well, you know, get our money's worth,",
+        "ComparisonSentence": "i, i think there are some, but not all areas where we, where we, uh, pretty well, you know, get our money's worth,",
         "Context": "###but, anyway, we're supposed --n40496b to be talking about boats,###so back to boats.###.###.###so, tell me the last time you went for a boat ride --n404a7f.###.###well, actually, i went, uh, --n404b41 canoeing down the brazos this weekend.###.###oh, my gosh, now that had --n404c05 to be, that's boating.###that had --n404cdb to have been fun.###.###it was fun,###it was fun.###.###.### are, are we paying too much in taxes,###and are we getting what we pay for --n4000cf.###what's your opinion --n40014a.###.###well, it's kind of a broad subject, uh,"
     },
     {
@@ -4297,8 +4297,8 @@ items = [
     },
     {
         "Item_ID": "12611:177",
-        "OriginalSentence": "and i think that's the problem the p l o has  is that when they, whenever one group of them decides that they're going  to negotiate, or they're going  to do something, they're going  to try  to make some peace , but, uh, the end result is that they, there so many factions of them and, uh, some more violent than others, some with a certain agenda different than the others, or they split,",
-        "ComparisonSentence": "and i think that's the problem the p l o has  is that when they, whenever one group of them decides that they're going  to negotiate, or they're going  to do something, they're going  to try  to make some, but not all peace , but, uh, the end result is that they, there so many factions of them and, uh, some, but not all more violent than others, some with a certain agenda different than the others, or they split,",
+        "OriginalSentence": "and i think that's the problem the p l o has  is that when they, whenever one group of them decides that they're going  to negotiate, or they're going  to do something, they're going  to try  to make some peace, but, uh, the end result is that they, there so many factions of them and, uh, some more violent than others, some with a certain agenda different than the others, or they split,",
+        "ComparisonSentence": "and i think that's the problem the p l o has  is that when they, whenever one group of them decides that they're going  to negotiate, or they're going  to do something, they're going  to try  to make some, but not all peace, but, uh, the end result is that they, there so many factions of them and, uh, some, but not all more violent than others, some with a certain agenda different than the others, or they split,",
         "Context": "###exactly, exactly###and, uh, um, so, gee,###i lost my train of thought here.### but, uh, um, so, okay###so i can't say whether that, that i'm pro israel or anti israel.###i mean, i'd like --n404c98 to see them resolve something in that situation and get some stability in the region###and looks uh, that the joining of forces for this, uh, uh, desert shield and desert storm thing ended up --n404e17 being a positive thing.###.###it is a positive thing, um,###however, uh, every time an organization such as the p l o says well we'll see if we can work with israel --n404fd7, then, uh, they get embarrassed --n404ffe some, every few months by documents that --n405025 reveal that their ultimate purpose is to totally eliminate them.###.###right.###.###and so you, you basically have, uh, mutually exclusive interests,###either israel is going --n40534f to occupy the area,###or the arabs are going --n4053d8 to occupy the area###and i'm just not sure that, that there's going --n405479 to be any easy permanent solution.###.###yeah,###somebody's going --n405585 to,"
     },
     {
@@ -4315,8 +4315,8 @@ items = [
     },
     {
         "Item_ID": "29416:66",
-        "OriginalSentence": "um, it, it, it  was very interesting that it seemed like some of the commentators had their axe to grind , you know,",
-        "ComparisonSentence": "um, it, it, it  was very interesting that it seemed like some, but not all of the commentators had their axe to grind , you know,",
+        "OriginalSentence": "um, it, it, it  was very interesting that it seemed like some of the commentators had their axe to grind, you know,",
+        "ComparisonSentence": "um, it, it, it  was very interesting that it seemed like some, but not all of the commentators had their axe to grind, you know,",
         "Context": "###.###so i've never actually been through a period of war###.###uh-huh.###and i don't know anyone in the military###and i don't have a lot of background knowledge in, uh, military strategy and, and weaponry, and, and all that kind of stuff.###and i thought the generals were very interesting.###.###now when they started --n402a98 to speculate --n402aa7, i, i saw that for what is was --n402ad6, and thought all of these guys don't know what --n402b0d's going on.###.###uh-huh.###but i thought the-, the-, they were interesting,###.###speakera54-1*t54-1.### and, and they shed some light on what --n402dcf was going on for me.###speakerbnan*t54-1.###speakerb54-2*t54-2.###i will admit it's interesting.### i-, i-, i'm twenty-six.###so i don't have any more experience in that than you."
     },
     {
@@ -4399,8 +4399,8 @@ items = [
     },
     {
         "Item_ID": "41573:26",
-        "OriginalSentence": "but then usually when you find out some information from like your parents , then you can find out from, you know, you can find somebody else that  can tell you something else about these,",
-        "ComparisonSentence": "but then usually when you find out some, but not all information from like your parents , then you can find out from, you know, you can find somebody else that  can tell you something else about these,",
+        "OriginalSentence": "but then usually when you find out some information from like your parents, then you can find out from, you know, you can find somebody else that  can tell you something else about these,",
+        "ComparisonSentence": "but then usually when you find out some, but not all information from like your parents, then you can find out from, you know, you can find somebody else that  can tell you something else about these,",
         "Context": "###.###i just,###the thing is i know a lot of stories,###but i can't remember who it was about --n409a53.###my grandparents told us when i was growing up --n409aeb and even when i was an adult --n409b0e###they still tell all kinds of stories about their parents and their cousins and their best friends, cause they all grew up in new york city,###but i can't, you know, i remember these stories###but i have no idea who it was --n409e00 that --n409e0b was in those stories.###.###yeah.###.###so, i mean, i couldn't give an accurate,###i couldn't tell my kids what, you know, those people were like --n409fb2,###i just remember they had some funny stories,###but i don't know who it was --n40a0f8.###.###maybe what you could do --n40a177 if you couldn't get into a full family reunion, and you wanted --n40a1b6 to go back some,###.###uh-huh.###."
     },
     {
@@ -4501,8 +4501,8 @@ items = [
     },
     {
         "Item_ID": "113457:49",
-        "OriginalSentence": "and when the cowboys won the superbowl here , of course, they put together some real cute songs,",
-        "ComparisonSentence": "and when the cowboys won the superbowl here , of course, they put together some, but not all real cute songs,",
+        "OriginalSentence": "and when the cowboys won the superbowl here, of course, they put together some real cute songs,",
+        "ComparisonSentence": "and when the cowboys won the superbowl here, of course, they put together some, but not all real cute songs,",
         "Context": "###but they did the johnny angel.###they did johnny elway to that.###.###johnny elway.###.### and, and i was trying --n403b3e to get my son to sing that.###my husband was just having a fit### don't have him sing that song.###but, they, they do a lot of fun things.###i think football is, football is kind of a, a sport that i think you kind of, it --n403de7's hard not to like --n403e06 it.###because you know there's just,###.###well, there is so much about it to like --n40403f.###.###it's exciting.###.###you know it's so exciting.###.###yeah.###."
     },
     {
@@ -4573,8 +4573,8 @@ items = [
     },
     {
         "Item_ID": "49875:48",
-        "OriginalSentence": "uh, they still have some, some, uh, some draft picks, uh, that they got ,",
-        "ComparisonSentence": "uh, they still have some, but not all  some, uh, some, but not all draft picks, uh, that they got ,",
+        "OriginalSentence": "uh, they still have some, some, uh, some draft picks, uh, that they got,",
+        "ComparisonSentence": "uh, they still have some, but not all  some, uh, some, but not all draft picks, uh, that they got,",
         "Context": "###.###yeah,###yeah.###.###um.###.###but,###.###and i don't, you know,### my, my, my, my main sport is baseball###but, you know, um, i've been enjoying football###but i don't know it as well.###.###yeah.###.###um, i just, you know, um,###cowboys are going --n402d0d to have a problem aren't they.### is it, is it this year they don't have a draft pick because of the walker trade --n402e03###or what was the whole deal on that --n402eea.###."
     },
     {
@@ -4645,14 +4645,14 @@ items = [
     },
     {
         "Item_ID": "20170:26",
-        "OriginalSentence": "there are, were some, uh, regulations  over, i don't know whether they're laws passed or, or whatever they're called  , uh, just recently, where, uh, people with certain diseases can not be excluded , uh, from, uh, immigration .",
-        "ComparisonSentence": "there are, were some, but not all  uh, regulations  over, i don't know whether they're laws passed or, or whatever they're called  , uh, just recently, where, uh, people with certain diseases can not be excluded , uh, from, uh, immigration .",
+        "OriginalSentence": "there are, were some, uh, regulations  over, i don't know whether they're laws passed or, or whatever they're called , uh, just recently, where, uh, people with certain diseases can not be excluded, uh, from, uh, immigration .",
+        "ComparisonSentence": "there are, were some, but not all  uh, regulations  over, i don't know whether they're laws passed or, or whatever they're called , uh, just recently, where, uh, people with certain diseases can not be excluded, uh, from, uh, immigration .",
         "Context": "###.###uh-huh.###.###so, you know,###but, uh i think unrestricted immigration, i think --n402a77, is not, uh, is not best, uh.###.###yeah.### i, i, well, i agree with that,###.###.### i, i think if immigration was entirely unrestricted, uh, not only would, would the united states become over populated, well, more over populated awfully quickly, i think --n402d2b it, it would bring in a lot of, uh, people that --n402d76 are, run --n402d89 out of other countries or in trouble in, in other countries.###i think they'd come here --n4030a4 trying --n4030af to find a new market for their, their brand of crime.###.###uh-huh.###well, you know, there's another aspect of this, too.###they're also, uh, uh, diminishing the, uh, health restrictions which,###.###i was not aware, aware of that.###.###well, yes."
     },
     {
         "Item_ID": "61000:7",
-        "OriginalSentence": "and some of the people that  work there have told me that when they have inspectors coming  they, you know, shut down everything and they clean up their act, but on a normal basis that they're, that they're dumping things, that they're not supposed  to be dumping ,",
-        "ComparisonSentence": "and some, but not all of the people that  work there have told me that when they have inspectors coming  they, you know, shut down everything and they clean up their act, but on a normal basis that they're, that they're dumping things, that they're not supposed  to be dumping ,",
+        "OriginalSentence": "and some of the people that  work there have told me that when they have inspectors coming  they, you know, shut down everything and they clean up their act, but on a normal basis that they're, that they're dumping things, that they're not supposed  to be dumping,",
+        "ComparisonSentence": "and some, but not all of the people that  work there have told me that when they have inspectors coming  they, you know, shut down everything and they clean up their act, but on a normal basis that they're, that they're dumping things, that they're not supposed  to be dumping,",
         "Context": "###and i know for a fact that they get away with a lot that,###you know, they're supposed --n401248 to be regulated --n40125b because we have a, we have a plant, i don't know about t i but we have a plant, uh, a pillsbury plant, in, in a town adjacent to ours,###.###uh-huh.###.###and i know people that --n401571 work there that,###of course, you wouldn't think pillsbury would put out certain chemicals,###.###no.###.###but they put out toxic chemicals there just in some of the, um, what they do --n401729, uh, --n40173c to, uh, make their dough and st-, to, clean out the flour and stuff like that,###.###really.###.###yeah,###.###huh.###.###i mean, it's incredible.###and, um, they said that they're, you know, they have a little creek that --n401a42 runs by them"
     },
     {
@@ -4681,14 +4681,14 @@ items = [
     },
     {
         "Item_ID": "48706:4",
-        "OriginalSentence": "some things we can't do ,",
-        "ComparisonSentence": "some, but not all things we can't do ,",
+        "OriginalSentence": "some things we can't do,",
+        "ComparisonSentence": "some, but not all things we can't do,",
         "Context": "###.###they take up so much space that you don't have any place --n404d96 then to work --n404db1.###you don't have any, bytes left###.###yeah.###.###but, um, if you, um, if, if you want --n404f62 to go into one that --n404f7d's really useful, you're going --n404fa0 to have --n404faf to go over a thousand dollars,###and even for a personal computer it's probably smart to spend that much,### an-, and we've,###ours is not quite that powerful,###and so, you know, we are, we are limited, which --n405328 may be one reason why,###.### you do run in-, you do run into limitations on yours.###.###.###oh, yeah,###.###oh, wow.###.###uh-huh,"
     },
     {
         "Item_ID": "41717:66",
-        "OriginalSentence": "well i feel like too, on the job, when, you know, there's men around and some of the managers are men , you just, you know, you don't want them looking at your legs necessarily.",
-        "ComparisonSentence": "well i feel like too, on the job, when, you know, there's men around and some, but not all of the managers are men , you just, you know, you don't want them looking at your legs necessarily.",
+        "OriginalSentence": "well i feel like too, on the job, when, you know, there's men around and some of the managers are men, you just, you know, you don't want them looking at your legs necessarily.",
+        "ComparisonSentence": "well i feel like too, on the job, when, you know, there's men around and some, but not all of the managers are men, you just, you know, you don't want them looking at your legs necessarily.",
         "Context": "###.###uh, even though i may have them from sixth grade on up through, uh, grandmothers, in my class.###.###uh-huh.###.###and, uh, whe-, i always try --n402c84 to emphasize the, clothes that you wear --n402caf should not necessarily be the greatest fad,###.###uh-huh.###.###because maybe they, those are not the clothes that --n402e29 are the most, uh, appealing to you, or the most, uh, complimentary to you.###.###right.###.###but, uh, the mini skirt many times will evoke comments you don't really want --n402ff6.###.###right.###.### and, and then, uh, then you're in the situation where you're very unhappy --n403111.###.###uh-huh."
     },
     {
@@ -4747,8 +4747,8 @@ items = [
     },
     {
         "Item_ID": "77887:17",
-        "OriginalSentence": "and so the kids in some ways are, are, are suffering a little bit, in that, uh, the model, the role models that  get the, the, the family issues that  get discussed , and all these, i think  are very important parts of them growing up,",
-        "ComparisonSentence": "and so the kids in some, but not all ways are, are, are suffering a little bit, in that, uh, the model, the role models that  get the, the, the family issues that  get discussed , and all these, i think  are very important parts of them growing up,",
+        "OriginalSentence": "and so the kids in some ways are, are, are suffering a little bit, in that, uh, the model, the role models that  get the, the, the family issues that  get discussed, and all these, i think  are very important parts of them growing up,",
+        "ComparisonSentence": "and so the kids in some, but not all ways are, are, are suffering a little bit, in that, uh, the model, the role models that  get the, the, the family issues that  get discussed, and all these, i think  are very important parts of them growing up,",
         "Context": "###yeah.###.### their, uh, their cousins are about ten years younger.###.###uh-huh.###.###so, uh, they never played together or anything.###.###yeah.###and i, i just sort of think yeah###.###and there are only two of them###and they didn't live in the same town.###.###that###the trend of, of families and time, where, where parents are spending less time --n405dbf,###you don't have the families, --n405ec5 too, to take up the gap.###.###that's right.###."
     },
     {
@@ -4795,8 +4795,8 @@ items = [
     },
     {
         "Item_ID": "164858:59",
-        "OriginalSentence": "there wasn't as many advanced placement courses , uh, when i was a senior  that some other schools had .",
-        "ComparisonSentence": "there wasn't as many advanced placement courses , uh, when i was a senior  that some, but not all other schools had .",
+        "OriginalSentence": "there wasn't as many advanced placement courses, uh, when i was a senior  that some other schools had .",
+        "ComparisonSentence": "there wasn't as many advanced placement courses, uh, when i was a senior  that some, but not all other schools had .",
         "Context": "###.###and s-, a lot of my friends were in one of the neighboring suburbs###and it wasn't, we weren't too far removed --n40128d geographically from each other,###but the difference in schools i think --n40136a was pretty substantial###.###uh-huh.###.###and, uh, one of the things that --n401433 probably would have been better if, is if the entire county had had, had just one school system.###.###right.###.###and that would result in some, uh, could result in more equitable distribution of money###because what --n4016f5 was happening was, you know, all the very rich people went out to the, move out to the suburbs###and the city had a very low tax base###so they didn't have a lot of money to work with --n4018fb.###.###uh-huh.###.###as a result, the schools were rundown,###there wasn't as many, you know, of the nice supplies in science class that we would have liked --n401a79."
     },
     {
@@ -4867,14 +4867,14 @@ items = [
     },
     {
         "Item_ID": "95535:14",
-        "OriginalSentence": "she told me some of the things you can do ,",
-        "ComparisonSentence": "she told me some, but not all of the things you can do ,",
+        "OriginalSentence": "she told me some of the things you can do,",
+        "ComparisonSentence": "she told me some, but not all of the things you can do,",
         "Context": "###i can't talk on th-, can't do this much later than now, between sort of like six, five thirty and six thirty or something like that, because the traffic outside, they honk the horn so loud i can't even hear the phone call.###.###what time is it --n4037ee now where you are --n403805.###.###uh, about twenty after four.###.###so you're an hour ahead of where i am --n403902.###i'm in central central time zone.###.###okay,###yeah###.###.###we're eastern.###and, um, what did, did you ever try --n403aa1 using like prodigy or any of those systems.###.###no,###i haven't done that.###uh, i know someone who --n403c39 has,### and, and she's, uh, very, uh, pleased with it."
     },
     {
         "Item_ID": "91184:148",
-        "OriginalSentence": "i, i think i'd, i'd advise a parent  to send a kid to a school , though, that  has a number of different types of programs, you know, that, uh, some of the smaller schools might be very limited in what they can offer ,",
-        "ComparisonSentence": "i, i think i'd, i'd advise a parent  to send a kid to a school , though, that  has a number of different types of programs, you know, that, uh, some, but not all of the smaller schools might be very limited in what they can offer ,",
+        "OriginalSentence": "i, i think i'd, i'd advise a parent  to send a kid to a school, though, that  has a number of different types of programs, you know, that, uh, some of the smaller schools might be very limited in what they can offer,",
+        "ComparisonSentence": "i, i think i'd, i'd advise a parent  to send a kid to a school, though, that  has a number of different types of programs, you know, that, uh, some, but not all of the smaller schools might be very limited in what they can offer,",
         "Context": "###.###yeah.###.### an, and, i mean, choosing from my experience, you know, i thought, you know, my, i know what i want --n40110b a lot more than my parents know what i want --n40113a.###.###uh-huh.###.###but, uh, i don't know,###at the same time, you have --n4013b5 to decide what --n4013c8 is important about the school,###you know, the size of it or,###.###yeah.###i think that's more important --n401544 probably than even the career vocation, because most people change.###.###yeah.###.### i kn-, i know very few people that, uh, --n401673 started in one field and stayed with it.###you know, they,###i think that's what you just said --n4017fa, you know, having to do more with the size of the school, the environment of the school, uh,###i think that's much more important."
     },
     {
@@ -4897,8 +4897,8 @@ items = [
     },
     {
         "Item_ID": "63221:32",
-        "OriginalSentence": "um, it's a lot more fun than some other things i could do , i guess .",
-        "ComparisonSentence": "um, it's a lot more fun than some, but not all other things i could do , i guess .",
+        "OriginalSentence": "um, it's a lot more fun than some other things i could do, i guess .",
+        "ComparisonSentence": "um, it's a lot more fun than some, but not all other things i could do, i guess .",
         "Context": "###.###right.###yeah,###walking is kind of boring.###i do have a few friends that --n40496c live in my apartment complex in this neighborhood,###and we try --n404a3c to, we used --n404a53 to try --n404a62 to get together,###and i think now that the weather's getting nicer we're going --n404b74 to start --n404b83 doing it again and occasionally go --n404ba2 walking.###there's a real nice residential area right behind our apartment complex.###.###uh-huh,###uh-huh.###.###and it's not as boring if you get several people###.###that's right.###.###and you can kind of talk,### and, and it, it makes it pass pretty quickly,###and the aerobics isn't too boring.###i kind of enjoy it when i'm doing it --n404fef."
     },
     {
@@ -5083,8 +5083,8 @@ items = [
     },
     {
         "Item_ID": "30596:33",
-        "OriginalSentence": "i mean, and then of course you have some changes to make , and do the whole thing over.",
-        "ComparisonSentence": "i mean, and then of course you have some, but not all changes to make , and do the whole thing over.",
+        "OriginalSentence": "i mean, and then of course you have some changes to make, and do the whole thing over.",
+        "ComparisonSentence": "i mean, and then of course you have some, but not all changes to make, and do the whole thing over.",
         "Context": "###uh-huh.###.###and we just had a regular old typewriter, not even a correcting one back then.###.###oh and you had --n40520e to type all of his papers.###.###it wasn't that long ago,###but i typed his master's papers and things on a typewriter.###.###.###oh gosh,###.###oh boy, to have a computer back then.###.###oh, cut your time in half at least.###.###at least.###.###at least.###."
     },
     {
@@ -5107,8 +5107,8 @@ items = [
     },
     {
         "Item_ID": "71287:32",
-        "OriginalSentence": "at least what i read , is that some younger people feel that education is priced  out of their, uh, out of their, uh, budget.",
-        "ComparisonSentence": "at least what i read , is that some, but not all younger people feel that education is priced  out of their, uh, out of their, uh, budget.",
+        "OriginalSentence": "at least what i read, is that some younger people feel that education is priced  out of their, uh, out of their, uh, budget.",
+        "ComparisonSentence": "at least what i read, is that some, but not all younger people feel that education is priced  out of their, uh, out of their, uh, budget.",
         "Context": "###my masters, anyway.###.###what,###but, uh, when i look at it --n406685 to me, uh, it doesn't really make any difference.###it was a marvelous opportunity that i couldn't have done --n4067a3,###i don't think i would have gone on, unless i had that financial uh, easement made --n406879 possible.###.###yeah.###.###.###that's right.###.###and i, i don't really care what it takes --n4069e3 to qualify, whether you're, uh, an, an ex-, whether you're a veteran or whether you,###i don't even know if you have --n406c15 to perform community service,###or unless, uh, or, or you promise to even do something in the future, i think that, uh, the, that, that, the subsidy itself,###or i guess the enactment of that form of legislation, would give many people who,### i, i think, i think i perceive the fact,###.###uh-huh.###."
     },
     {
@@ -5173,8 +5173,8 @@ items = [
     },
     {
         "Item_ID": "96743:132",
-        "OriginalSentence": "and, uh, uh, i guess my, i, uh, the one, my one bad thing is that i am, that i wish my mother had had some of those opportunities, because, i think she would have really, she rea-, would have succeeded in a lot of ways, that men, that women were not able  to succeed , in her, generation.",
-        "ComparisonSentence": "and, uh, uh, i guess my, i, uh, the one, my one bad thing is that i am, that i wish my mother had had some, but not all of those opportunities, because, i think she would have really, she rea-, would have succeeded in a lot of ways, that men, that women were not able  to succeed , in her, generation.",
+        "OriginalSentence": "and, uh, uh, i guess my, i, uh, the one, my one bad thing is that i am, that i wish my mother had had some of those opportunities, because, i think she would have really, she rea-, would have succeeded in a lot of ways, that men, that women were not able  to succeed, in her, generation.",
+        "ComparisonSentence": "and, uh, uh, i guess my, i, uh, the one, my one bad thing is that i am, that i wish my mother had had some, but not all of those opportunities, because, i think she would have really, she rea-, would have succeeded in a lot of ways, that men, that women were not able  to succeed, in her, generation.",
         "Context": "###.###so, there are some, some strides --n4024db to be made --n4024ee there.###.###yeah,###yeah.###.###but, uh, i do not know,### i, i think we have come a long way, actually, when i think about, you know, when things were like even, when i, you know, just when i was in high school --n4026f5 --n4026fc, and how it is --n402717 now for girls --n40272a.###.###uh-huh.###.###.###uh-huh.###.###.###uh-huh.###.###.###yeah,###."
     },
     {
@@ -5185,14 +5185,14 @@ items = [
     },
     {
         "Item_ID": "76326:14",
-        "OriginalSentence": "i did get some material and studied every bit of material that i could study ,",
-        "ComparisonSentence": "i did get some, but not all material and studied every bit of material that i could study ,",
+        "OriginalSentence": "i did get some material and studied every bit of material that i could study,",
+        "ComparisonSentence": "i did get some, but not all material and studied every bit of material that i could study,",
         "Context": "###my mom's like i am.###she's a renovator, a lover of old things###.###uh-huh.###.###and, you know, they have --n4050e3 to be doing something constantly.###and the patio that --n405196 came with that house, uh, was not laid --n4051c5 on a, like,###i don't know if you can put some sort of a plastic sheeting or something un-, on, on top of the sand and then lay the bricks.###.###no###we,###.###but they have, they have a problem with these little tin-, like sand bugs or something that --n4054e7 drill in between all these bricks.###.###well, i,###.###and, of course you know you have the, uh, the weeds that --n4056a7 come up in between the bricks or, and things like that.###.###well, no,### i, i didn't have that trouble because, uh, we laid the,"
     },
     {
         "Item_ID": "175399:7",
-        "OriginalSentence": "even some of the immediate things that i need  to know , i don't know it until the next hour",
-        "ComparisonSentence": "even some, but not all of the immediate things that i need  to know , i don't know it until the next hour",
+        "OriginalSentence": "even some of the immediate things that i need  to know, i don't know it until the next hour",
+        "ComparisonSentence": "even some, but not all of the immediate things that i need  to know, i don't know it until the next hour",
         "Context": "###see, wh-, when you're with a big company or a big organization --n40004e, a lot of times, uh, you know, the benefits are good### and, and, you know, the pay is regular###but, uh, you know, sometimes you don't get tuned --n400283 in to what --n400296's going on.###and i, i think the biggest benefit or the biggest benefit other than wages that, that, uh, that anybody could get --n4003ff in, in dealing with a large company is to be in a situation where you, you get --n400466 to know what --n400479's going on --n40048c.###and maybe that's, that's probably the toughest thing in the whole world to, to do --n4007a6.### what's, what's your feeling about benefits --n4008da.###what sort of benefits would you like --n40098b to get --n40099a from a big company.###.###well, since i'm kind of on the, the older side, you know, i, i, i just feel like, uh, when i start --n400ae5 talking about benefits --n400af8, i talk about, i'm concerned about medical benefits.###uh, my, uh, my husband works for mcdonald douglas###and so his benefits, his medical benefits are so excellent, you know,###that's really great.###.###uh-huh.###.###you know, i work for, uh, wes-, a bank, western financial.###.###uh-huh.###.###and, uh, they don't let me know really about anything that --n401055's going on."
     },
     {
@@ -5281,8 +5281,8 @@ items = [
     },
     {
         "Item_ID": "145945:125",
-        "OriginalSentence": "i guess what, the other benefits that, uh, that i, uh, that i miss , i guess is, uh, you know, some of the bonuses and stuff that that  goes on with just being involved  with a big company, you know",
-        "ComparisonSentence": "i guess what, the other benefits that, uh, that i, uh, that i miss , i guess is, uh, you know, some, but not all of the bonuses and stuff that that  goes on with just being involved  with a big company, you know",
+        "OriginalSentence": "i guess what, the other benefits that, uh, that i, uh, that i miss, i guess is, uh, you know, some of the bonuses and stuff that that  goes on with just being involved  with a big company, you know",
+        "ComparisonSentence": "i guess what, the other benefits that, uh, that i, uh, that i miss, i guess is, uh, you know, some, but not all of the bonuses and stuff that that  goes on with just being involved  with a big company, you know",
         "Context": "###.###and, uh, yeah,###.###even at a group rate, i couldn't believe how much is our,###.###oh, yeah###.###.###even at a group rate.###uh, it's, it's unbelievable###and, uh, the amount that you have --n402980 to pay --n40298f for, you know, for kids### and, and if you want --n402ab7 to add dental to it, i mean, that's that eats even more.###.###right,###it goes up.###.###.###right.###.###so, yeah,"
     },
     {
@@ -5323,8 +5323,8 @@ items = [
     },
     {
         "Item_ID": "85724:16",
-        "OriginalSentence": "um, there are some areas  though where, where they have a problem with, uh, the houses kind of sinking a little bit into the, to the, uh ,",
-        "ComparisonSentence": "um, there are some, but not all areas  though where, where they have a problem with, uh, the houses kind of sinking a little bit into the, to the, uh ,",
+        "OriginalSentence": "um, there are some areas  though where, where they have a problem with, uh, the houses kind of sinking a little bit into the, to the, uh,",
+        "ComparisonSentence": "um, there are some, but not all areas  though where, where they have a problem with, uh, the houses kind of sinking a little bit into the, to the, uh,",
         "Context": "###right.###.###.### i haven't, i haven't, i have yet --n403190 to see a basement in a house.###.###huh.###.###and, uh,###.###maybe it's all the sand.###is there a lot of sand in,###i always think it's like a desert,###i don't know.###mumblex dallas always,###.###well, no.###no,###no,###no,###you know, i don't see that kind of sand here."
     },
     {
@@ -5503,8 +5503,8 @@ items = [
     },
     {
         "Item_ID": "1988:12",
-        "OriginalSentence": "there are some, you know, types of heavy metal that i really like ,",
-        "ComparisonSentence": "there are some, but not all  you know, types of heavy metal that i really like ,",
+        "OriginalSentence": "there are some, you know, types of heavy metal that i really like,",
+        "ComparisonSentence": "there are some, but not all  you know, types of heavy metal that i really like,",
         "Context": "### a lot of the, a lot of where they, where they make music that they adapt --n40727e to a, to another kind of, to another type of listener --n4072c5.###.###uh-huh.###.###uh, for example, let's say you're taking like an original brazilian form of music and, with a certain style,###and then you try --n40762a to make it a little bit more listenable for, let's say --n407669 another audience, let's say --n40768c a north american.###.###uh-huh.###.###and, then when they hear it --n407805, it, it's a really, it's another form of music,###and, you know, sort of, um, trying --n407986 to draw out the best sources.###.###um.###.### the, the best of every type of music.###.###right.###.###because, i mean, there are some##, i mean, i, i li-,"
     },
     {
@@ -5533,8 +5533,8 @@ items = [
     },
     {
         "Item_ID": "55159:38",
-        "OriginalSentence": "uh, marino makes me just crazy mad sometimes, because of some of the stupid stuff he does ,",
-        "ComparisonSentence": "uh, marino makes me just crazy mad sometimes, because of some, but not all of the stupid stuff he does ,",
+        "OriginalSentence": "uh, marino makes me just crazy mad sometimes, because of some of the stupid stuff he does,",
+        "ComparisonSentence": "uh, marino makes me just crazy mad sometimes, because of some, but not all of the stupid stuff he does,",
         "Context": "###.###yeah.### that, that sure was a fun super bowl to watch --n404cda this year.###.###oh, yeah,###yeah.###.###i mean, i wasn't pulling for either team.###.###no,###no.###.###but that was just a good football game.###.###and it's funny, you know.###you like --n404f8b to pull for the underdog###and for a long time i was pulling for denver.###.###uh-huh.###."
     },
     {
@@ -5587,8 +5587,8 @@ items = [
     },
     {
         "Item_ID": "173813:37",
-        "OriginalSentence": "well, when mine were growing up , i did some traveling and but not that extensively",
-        "ComparisonSentence": "well, when mine were growing up , i did some, but not all traveling and but not that extensively",
+        "OriginalSentence": "well, when mine were growing up, i did some traveling and but not that extensively",
+        "ComparisonSentence": "well, when mine were growing up, i did some, but not all traveling and but not that extensively",
         "Context": "###uh.###.###and we had five.###.###you've been through the fun part.###.###oh, yeah.###.###.###and how about yourself.###.###i have a four and a half and a three.###.###oh.###well.###.###so. it's,### i, i'm sure there's a lot of differences in the way, in the way it's done --n4003cc --n4003d3 now and then.###.###yeah."
     },
     {
@@ -5641,8 +5641,8 @@ items = [
     },
     {
         "Item_ID": "56053:54",
-        "OriginalSentence": "and i thought i had seen, when we were traveling around the state , some similar signs  up that  indicated that certain sections were being policed and cleaned up",
-        "ComparisonSentence": "and i thought i had seen, when we were traveling around the state , some, but not all similar signs  up that  indicated that certain sections were being policed and cleaned up",
+        "OriginalSentence": "and i thought i had seen, when we were traveling around the state, some similar signs  up that  indicated that certain sections were being policed and cleaned up",
+        "ComparisonSentence": "and i thought i had seen, when we were traveling around the state, some, but not all similar signs  up that  indicated that certain sections were being policed and cleaned up",
         "Context": "###.###.###and, uh, there was a,###.###.###and there were those that --n405fa0 said, no, you can't do that, i'm sure --n405fdf.###.###yeah.###well, uh, it was, it was interesting because that's an interesting question, you know.###.###yeah.###.###should these people be allowed --n406220 to or not.###i think they finally decided --n4062bc not to because they figured that stretch of highway was going --n4062f7 to get trashed --n40630a.###.###oh.###and i hadn't even thought about that, uh, the, the other end of that.### that, that's an interesting, uh, situation.###i hadn't thought of that.###we had visited relatives in virginia, not too long ago,"
     },
     {
@@ -5683,8 +5683,8 @@ items = [
     },
     {
         "Item_ID": "24055:33",
-        "OriginalSentence": "depending upon the field, i know there are some fields which a person should go to the school, that school, all four years ,",
-        "ComparisonSentence": "depending upon the field, i know there are some, but not all fields which a person should go to the school, that school, all four years ,",
+        "OriginalSentence": "depending upon the field, i know there are some fields which a person should go to the school, that school, all four years,",
+        "ComparisonSentence": "depending upon the field, i know there are some, but not all fields which a person should go to the school, that school, all four years,",
         "Context": "###all right.### thank you.###.###okay.###bye-bye.###.###bye-bye.###.###.###okay, um,###well, the first thing, uh, what do you think you would offer --n400087 as far as, uh, information about selecting a school.###.###well, first i think they've got --n4001e2 to have a pretty good idea of what they want --n400211 to, what they want --n40022c to do --n40023b.###.###uh-huh.###.###uh, once they have that, then they can start --n4003e2 looking in all the various publications that --n400405 give out all the information about schools and write to the schools themselves, and start --n40044c finding out about the different requirements for the programs and what kind of, uh, of job assistance and all that other kind of stuff they offer --n4004c3.###.###yeah, uh,### do you, do you feel that the first two years that the, um,"
     },
     {
@@ -5749,8 +5749,8 @@ items = [
     },
     {
         "Item_ID": "149148:54",
-        "OriginalSentence": "you know, when you write a test  you have  to look at some data from it and see how the different questions are performing  and find out which ones  are discriminating well and which ones  aren't find out how reliable the test is ,",
-        "ComparisonSentence": "you know, when you write a test  you have  to look at some, but not all data from it and see how the different questions are performing  and find out which ones  are discriminating well and which ones  aren't find out how reliable the test is ,",
+        "OriginalSentence": "you know, when you write a test  you have  to look at some data from it and see how the different questions are performing  and find out which ones  are discriminating well and which ones  aren't find out how reliable the test is,",
+        "ComparisonSentence": "you know, when you write a test  you have  to look at some, but not all data from it and see how the different questions are performing  and find out which ones  are discriminating well and which ones  aren't find out how reliable the test is,",
         "Context": "###right.###well, now, we, uh,###what i use a computer for --n402a2a is to write materials that --n402a49 are later printed --n402a5c, though.###.###uh-huh.###.###most of the stuff that i do --n402b80 is not, uh, interactive###.###uh-huh.###.###and i use it for t-, uh, data analysis on testing,###so.###.###uh, to see how well they retain the vocabulary --n402d58 and things like that.###.###well, just, actually, just, uh, item analysis, statistical analysis of the tests,###uh.###.###uh-huh.###."
     },
     {
@@ -5773,8 +5773,8 @@ items = [
     },
     {
         "Item_ID": "42149:6",
-        "OriginalSentence": "some of these plea bargains and all this kind of stuff that they do , it's just, it just gets out of hand,",
-        "ComparisonSentence": "some, but not all of these plea bargains and all this kind of stuff that they do , it's just, it just gets out of hand,",
+        "OriginalSentence": "some of these plea bargains and all this kind of stuff that they do, it's just, it just gets out of hand,",
+        "ComparisonSentence": "some, but not all of these plea bargains and all this kind of stuff that they do, it's just, it just gets out of hand,",
         "Context": "###no,###no,###and i don't know,###the same thing goes with some of these insanity pleas, you know.###.###right,###yeah.###.###well, if you're insane enough that you can go --n404c17 cut twelve people up into little bitty pieces and bury them in your back yard, then are y-, can, can you be helped --n404c96, you know,###.###.### i have, i have my doubts, you know.###.###that's right,###yeah,###yeah,###i do too.###.### i, you know, i don't know,###i think there's a point,"
     },
     {
@@ -5791,8 +5791,8 @@ items = [
     },
     {
         "Item_ID": "28335:95",
-        "OriginalSentence": "some of the, some of the women's roles, i think , are almost for the worse, because we're losing out on some things,  going back to work,",
-        "ComparisonSentence": "some, but not all of the, some, but not all of the women's roles, i think , are almost for the worse, because we're losing out on some things,  going back to work,",
+        "OriginalSentence": "some of the, some of the women's roles, i think, are almost for the worse, because we're losing out on some things,  going back to work,",
+        "ComparisonSentence": "some, but not all of the, some, but not all of the women's roles, i think, are almost for the worse, because we're losing out on some things,  going back to work,",
         "Context": "###i wait until i put mine in bed before i make my calls.###.###yeah,###well, she's usually in bed by this time,###but she's staying up late tonight.###but,###yeah,###i want --n40a500 to have a relationship with her.###you know, my dad was a very traditional dad,###and when i was a child --n40a624 i didn't really know my dad very well,###and i miss that.###and i want,###.###that's the thing,### if woman's role, like we said, if women's roles change drastically, men's roles will, too.###.###yeah,###but men have --n40a907 to be convinced --n40a91a of that.###.###and a lot of it's for the better."
     },
     {
@@ -5971,8 +5971,8 @@ items = [
     },
     {
         "Item_ID": "77461:30",
-        "OriginalSentence": "what's, what are some other questions they have  ,",
-        "ComparisonSentence": "what's, what are some, but not all other questions they have  ,",
+        "OriginalSentence": "what's, what are some other questions they have ,",
+        "ComparisonSentence": "what's, what are some, but not all other questions they have ,",
         "Context": "###i know.###unfortunately, that's probably true.###um, do you think s-, the, the parents spend quality time with their kids### are do you think it's more like watching t v and stuff like that, not really, uh...###.### i, yeah, i, i think that, i think very few spend quality time.###i think most of the time the kids are usually off watching cartoons or playing video games or stuff, stuff like that.###.###yeah.###.###i think that, um, uh, most, most kids that i see --n403a8b don't really, they don't really value quality time.###.###yeah###it's always that way unti-, until it's too late.###.### until, until they're older###and then they look back.###.###yeah,###it's true, um."
     },
     {
@@ -5983,14 +5983,14 @@ items = [
     },
     {
         "Item_ID": "1638:23",
-        "OriginalSentence": "i think there is still some discrimination there where as, you know, men and women work in the same job ,",
-        "ComparisonSentence": "i think there is still some, but not all discrimination there where as, you know, men and women work in the same job ,",
+        "OriginalSentence": "i think there is still some discrimination there where as, you know, men and women work in the same job,",
+        "ComparisonSentence": "i think there is still some, but not all discrimination there where as, you know, men and women work in the same job,",
         "Context": "###uh-huh,###i guess i take it for granted, kind of, because, i just,###it's always been that way.###.###uh-huh.###.###but i know,###.###yeah,###but i can rem-, remember back growing up, my mother,###i mean it was###she always worked,###but it --n405479 wasn't that easy for her to just take off.###.###oh no,###i can remember my mother getting in trouble if, you know, one of was sick,###and i know she probably didn't make hardly anything, you know, compared to the work that she did --n4056ab.###.###oh yeah.###."
     },
     {
         "Item_ID": "13469:7",
-        "OriginalSentence": "but some of them are sold ,",
-        "ComparisonSentence": "but some, but not all of them are sold ,",
+        "OriginalSentence": "but some of them are sold,",
+        "ComparisonSentence": "but some, but not all of them are sold,",
         "Context": "###i've had them for carpet cleaning,###i've had them for, of course, for, you know, real estate investments###.###uh-huh.###.###you know, you get, uh, please send in your, uh, you know, this particular card###and you get, uh, a free trip or something along those lines.###.###right.###.###and so, that, uh, that bothers me because i, of course, i enjoy --n40210c being at home and i do not enjoy --n402133 getting called --n402142 by strangers uh, particularly solicit-, you know, soliciting.###.###uh-huh.###.###so, g-, having your,###and i know that a lot of these, of course, are random phone calls###.###uh-huh.###.###they just, you know, start --n4024ee going through the phone book or going through a series of numbers,"
     },
     {
@@ -6055,8 +6055,8 @@ items = [
     },
     {
         "Item_ID": "130755:109",
-        "OriginalSentence": "what, what  really works, uh, at least down here is, if there is, if there is some, e-, even some money basically to take care of the gas to recycle it  , you know what i mean , then people tend  to do it.",
-        "ComparisonSentence": "what, what  really works, uh, at least down here is, if there is, if there is some, but not all  e-, even some, but not all money basically to take care of the gas to recycle it  , you know what i mean , then people tend  to do it.",
+        "OriginalSentence": "what, what  really works, uh, at least down here is, if there is, if there is some, e-, even some money basically to take care of the gas to recycle it , you know what i mean, then people tend  to do it.",
+        "ComparisonSentence": "what, what  really works, uh, at least down here is, if there is, if there is some, but not all  e-, even some, but not all money basically to take care of the gas to recycle it , you know what i mean, then people tend  to do it.",
         "Context": "###yeah.###.###but they, they said they can't be smashed or else, uh, it doesn't fit in their little containers###and they're not reimbursed --n402091 by the, the people who --n4020b0 are over them or something.###.###well, shoot, maybe what we ought --n4021bb to do --n4021ca is --n4021d5 start --n4021e0 sending unsmashed, uh, pepsi cans and whatever up there.###.###yeah.###.###.###exactly,###yeah,### send it to this address,###no.###.###.###but, uh, let's see,###they said that, how, ways, can encourage recycling, uh,###.### i, i, i tell you"
     },
     {
@@ -6115,8 +6115,8 @@ items = [
     },
     {
         "Item_ID": "138873:64",
-        "OriginalSentence": "seems to me i remember that, uh, i was hired , came in and went through some orientation",
-        "ComparisonSentence": "seems to me i remember that, uh, i was hired , came in and went through some, but not all orientation",
+        "OriginalSentence": "seems to me i remember that, uh, i was hired, came in and went through some orientation",
+        "ComparisonSentence": "seems to me i remember that, uh, i was hired, came in and went through some, but not all orientation",
         "Context": "###.###right,###uh, everyone coming in gets, goes through the drug test.###.###yeah.###uh, now, uh, were you asked --n403a1e to wait before --n403a31 starting --n403a3c to work until the drug test came through###or,###.###uh, no,###well, let me think about that.###yeah,###it was after, i w-, i had already been hired --n403c52.###uh,###.###okay.###.###yeah,###you get hired --n403d59,###then you come in the first,###i,"
     },
     {
@@ -6295,8 +6295,8 @@ items = [
     },
     {
         "Item_ID": "29180:50",
-        "OriginalSentence": "then it comes down to what you said  before though about them being some of the lowest paid public, you know, public service, employees that there are ,",
-        "ComparisonSentence": "then it comes down to what you said  before though about them being some, but not all of the lowest paid public, you know, public service, employees that there are ,",
+        "OriginalSentence": "then it comes down to what you said  before though about them being some of the lowest paid public, you know, public service, employees that there are,",
+        "ComparisonSentence": "then it comes down to what you said  before though about them being some, but not all of the lowest paid public, you know, public service, employees that there are,",
         "Context": "###and she said that she had a choice,###she could either have taken tennis, or weight lifting###so she choice --n403092 to take weight lifting, over the regular gym,###.###.###i mean, give me a break,###i mean, the kids sit there### and they, and they drink cokes and eat popcorn for, for lunch###and, then go out there and lift weights and don't learn anything,###.###and talk,###yeah.###.### it's just a real, i have a real problem with the whole system.###.###huh.###.###they need --n403520 to put some sternness back into the, into the teachers and let them be able --n403567 to, uh, get the old whip out and get some discipline.###.###yeah,"
     },
     {
@@ -6343,8 +6343,8 @@ items = [
     },
     {
         "Item_ID": "165687:30",
-        "OriginalSentence": "and i found that while you can find some cars that  are comfortable to ride in , uh, finding a ca-, car  anymore that 's, that 's fairly easy for me to work on , it's just not very eas-, it's not very,",
-        "ComparisonSentence": "and i found that while you can find some, but not all cars that  are comfortable to ride in , uh, finding a ca-, car  anymore that 's, that 's fairly easy for me to work on , it's just not very eas-, it's not very,",
+        "OriginalSentence": "and i found that while you can find some cars that  are comfortable to ride in, uh, finding a ca-, car  anymore that 's, that 's fairly easy for me to work on, it's just not very eas-, it's not very,",
+        "ComparisonSentence": "and i found that while you can find some, but not all cars that  are comfortable to ride in, uh, finding a ca-, car  anymore that 's, that 's fairly easy for me to work on, it's just not very eas-, it's not very,",
         "Context": "###.###um. yeah,###i've heard a lot of people like them.###uh, yet i don't know wh-, whether i would buy saturn or not at this point.###i'm kind of,###my card and, uh, desires tend --n400aac to be pretty picky###and so, uh.###.###well, like what.###.###well, let's see.### i li-, i like cars that --n400c2f are designed --n400c3e with, with human beings in mind,###.###.###and that's not just the driver and the passenger###but that's the person who --n400df2's working on it,###cause i do al-, almost all my own maintenance and, uh those types of things.###.###uh-huh.###."
     },
     {
@@ -6415,8 +6415,8 @@ items = [
     },
     {
         "Item_ID": "166903:55",
-        "OriginalSentence": "matter of fact, i've heard that, i've heard that some of the information , uh, is prevented  from  reaching the jury, like, uh, mitigating circumstances or, or preceding, uh, criminal record or things of this nature that,",
-        "ComparisonSentence": "matter of fact, i've heard that, i've heard that some, but not all of the information , uh, is prevented  from  reaching the jury, like, uh, mitigating circumstances or, or preceding, uh, criminal record or things of this nature that,",
+        "OriginalSentence": "matter of fact, i've heard that, i've heard that some of the information, uh, is prevented  from  reaching the jury, like, uh, mitigating circumstances or, or preceding, uh, criminal record or things of this nature that,",
+        "ComparisonSentence": "matter of fact, i've heard that, i've heard that some, but not all of the information, uh, is prevented  from  reaching the jury, like, uh, mitigating circumstances or, or preceding, uh, criminal record or things of this nature that,",
         "Context": "###the jury will make a recommendation as to leniency or as to the death penalty or whatever,###but i think that it --n401d19 should be up to the judge and the, uh, lawyers to make the decision as to what the actual penalty will be --n401d84.###.###um.###.###maybe just the judge because they're the people who --n401ef4 know what the system is --n401f0f and what it's all about --n401f2e and believe in the system.###.###uh-huh.###.###.###uh-huh.###.###.###uh-huh.###.###uh, and i think that would provide a more fair sentencing procedure. as opposed to an emotional sentencing procedure. also, may be a more consistent sentencing procedure.###.###well, i suppose you may be right on that.###.###."
     },
     {
@@ -6445,8 +6445,8 @@ items = [
     },
     {
         "Item_ID": "87257:107",
-        "OriginalSentence": "and they were just really coming down on him because of some of the things he was, just some of the things that he believed in , some of his morals.",
-        "ComparisonSentence": "and they were just really coming down on him because of some, but not all of the things he was, just some, but not all of the things that he believed in , some of his morals.",
+        "OriginalSentence": "and they were just really coming down on him because of some of the things he was, just some of the things that he believed in, some of his morals.",
+        "ComparisonSentence": "and they were just really coming down on him because of some, but not all of the things he was, just some, but not all of the things that he believed in, some of his morals.",
         "Context": "###.###yeah.###.###and i, i, i, i have --n403ec3 to think that, that it has some influence on it.###but,###.###i listened to a radio talk show --n404072 today at lunch time uh, rush lynn bottom###.###yeah.###.###i do not know if you listen to him or not,###.###no.###.###he's on a m,###but, ther-, there's a fellow that --n404272 had called in and was lamenting about the,###there was an interview done on the assistant chief of police for los angeles, the guy under gates,###.###oh, yes.###."
     },
     {
@@ -6487,14 +6487,14 @@ items = [
     },
     {
         "Item_ID": "117808:33",
-        "OriginalSentence": "and, uh,  seeing as you've got some older children, i, i'm wondering, how did you handle that , when they were growing up .",
-        "ComparisonSentence": "and, uh,  seeing as you've got some, but not all older children, i, i'm wondering, how did you handle that , when they were growing up .",
+        "OriginalSentence": "and, uh,  seeing as you've got some older children, i, i'm wondering, how did you handle that, when they were growing up .",
+        "ComparisonSentence": "and, uh,  seeing as you've got some, but not all older children, i, i'm wondering, how did you handle that, when they were growing up .",
         "Context": "###.###that's okay.###.###good morning,###a r e,###this is arlene lister.###it was just a recorded message, on our business phone anyway.###.###.###i'm sorry,### keep --n401706 going.###.###no,###it's okay.###uh, so that was the thing that i, i noticed --n4017de that, i know a lot of people, lot of friends that we have --n401831, they have a tendency to do the same thing.###and one of the things we try --n401a59 to do --n401a68 is we try --n401a7b to avoid --n401a8a doing that as much as possible. although it --n401ab5 really is very easy to do that type of thing. just plop them down in front of the t v and let them be, uh, entertained --n401b34 that way.###.###uh-huh.###.###."
     },
     {
         "Item_ID": "46373:50",
-        "OriginalSentence": "sometimes when you lose someone that you really love  , you do some crazy things",
-        "ComparisonSentence": "sometimes when you lose someone that you really love  , you do some, but not all crazy things",
+        "OriginalSentence": "sometimes when you lose someone that you really love , you do some crazy things",
+        "ComparisonSentence": "sometimes when you lose someone that you really love , you do some, but not all crazy things",
         "Context": "###uh, that's terrible.###.###and the man said, that, you know, if it weren't for the fact that he would go to jail, that he would eliminate this person himself. and then go to mcdonalds and have a hamburger and not thing a thing, think a thing about it.###.###uh-huh.###.###.###and i mean, i think that what this is going --n4034f1 to lead to --n403504 is people will take things into their own hands. and that innocent people,###.###yeah.###.### i, i shouldn't say innocent, because i mean, ac-, actually if they commit a crime that they're in the same circumstances###but,###.###uh-huh.###.###the reasons that they're doing it --n403894 compared to the reason someone else is in jail for it --n4038cb, you know, it's like two different things.###.###yeah.###."
     },
     {
@@ -6511,8 +6511,8 @@ items = [
     },
     {
         "Item_ID": "159138:19",
-        "OriginalSentence": "and, uh, granted some people need  to be compensated  if they have really been wronged , you know.",
-        "ComparisonSentence": "and, uh, granted some, but not all people need  to be compensated  if they have really been wronged , you know.",
+        "OriginalSentence": "and, uh, granted some people need  to be compensated  if they have really been wronged, you know.",
+        "ComparisonSentence": "and, uh, granted some, but not all people need  to be compensated  if they have really been wronged, you know.",
         "Context": "###each individual jury really doesn't have any perception of what, um, the going, you know, if you will the going, uh, award should be --n4008aa for a certain type of case, you know, within some kind of range.###.###uh-huh.###.###when you get one way out like that --n400adb###but then really doesn't pen-, wind up --n400b71 penalizing the person that they went after --n400b94.###who it really penalizes --n400c8a is their insurance company which --n400ca5 then translates into higher rates for all of us. if they get some of those mega awards against them.###.###right.###.###you know, they're not going --n400e74 to sit there and lose money.###if they are losing money, then they're going --n400f52 to raise rates.###.###right.### th-, they ha-,###.###so it all comes --n40108c filtering down to us all in-, individually.###.###right.###."
     },
     {
@@ -6523,8 +6523,8 @@ items = [
     },
     {
         "Item_ID": "108737:78",
-        "OriginalSentence": "and, uh, a lot of it is, has a lot  to say , or some of it has a lot  to say ,",
-        "ComparisonSentence": "and, uh, a lot of it is, has a lot  to say , or some, but not all of it has a lot  to say ,",
+        "OriginalSentence": "and, uh, a lot of it is, has a lot  to say, or some of it has a lot  to say,",
+        "ComparisonSentence": "and, uh, a lot of it is, has a lot  to say, or some, but not all of it has a lot  to say,",
         "Context": "### i, um, i was thinking about it for a long time,###and i like basically almost every form of music and type of music.###um, i don't have a whole lot of dislikes.###i, um, like jazz, um, especially the blues,###and, uh, i like, uh, a lot of the, uh, of course the classics, um, everything back from bach and, and beethoven and chopin and, um, just in general everything.###.###uh-huh.###.###um, i enjoy, uh, a lot of the, the modern forms, um, uh,###.###do you like, like rock and those kind of things punk even.###.###right,###right.###.###.###uh, well, that gets,###.###.###some of the punk, um, when i was in high school --n400814, that was, uh, one of the big things, was punk music,"
     },
     {
@@ -6535,8 +6535,8 @@ items = [
     },
     {
         "Item_ID": "25273:85",
-        "OriginalSentence": "well, um, oh, i guess another thing i've noticed , too, here lately is that even though we've had some pretty warm days, it's been awfully gray, you know, just,",
-        "ComparisonSentence": "well, um, oh, i guess another thing i've noticed , too, here lately is that even though we've had some, but not all pretty warm days, it's been awfully gray, you know, just,",
+        "OriginalSentence": "well, um, oh, i guess another thing i've noticed, too, here lately is that even though we've had some pretty warm days, it's been awfully gray, you know, just,",
+        "ComparisonSentence": "well, um, oh, i guess another thing i've noticed, too, here lately is that even though we've had some, but not all pretty warm days, it's been awfully gray, you know, just,",
         "Context": "###well, uh, i think the weather lately has been a bit warmer than i would expect this time of year.###.###i think that's true.### the, uh, the bermuda grass is greening up in march, and sometimes doesn't really start --n400251 doing that until the first part of april.### so. so i think we're a little hea-, ahead of schedule on that.###.###yeah.###.###.###yeah,###i was out in my yard yesterday afternoon,###and i noticed all that grass coming up,###and i thought, ooh,###we've got --n40060d to start this mowing bit soon.###.###that's true.###it's been a, a fun break,###but the break is over.###.###yeah."
     },
     {
@@ -6559,8 +6559,8 @@ items = [
     },
     {
         "Item_ID": "65357:5",
-        "OriginalSentence": "some of those books are real tough to get into ,",
-        "ComparisonSentence": "some, but not all of those books are real tough to get into ,",
+        "OriginalSentence": "some of those books are real tough to get into,",
+        "ComparisonSentence": "some, but not all of those books are real tough to get into,",
         "Context": "###.###you know, i got, uh, um,### i b-, i belong to quality paperback book club.###.###oh, do you.###.###and i'll get, get stuff out of that.###like i got battle cry of freedom, you know, like a couple of years ago.###.###uh-huh.###.###and i started --n401ca1 reading, and got about sixty pages into it###and it's like eight hundred pages.###.###oh, my word.###.###and it was like, uh, i want --n401e02 to read something else for a while.###.###yeah.###it's, i-,"
     },
     {
@@ -6583,8 +6583,8 @@ items = [
     },
     {
         "Item_ID": "124653:71",
-        "OriginalSentence": "it's hurting, you know, it's hurting germany , for example, too, and some other parts of europe where they, where they have high industry .",
-        "ComparisonSentence": "it's hurting, you know, it's hurting germany , for example, too, and some, but not all other parts of europe where they, where they have high industry .",
+        "OriginalSentence": "it's hurting, you know, it's hurting germany, for example, too, and some other parts of europe where they, where they have high industry .",
+        "ComparisonSentence": "it's hurting, you know, it's hurting germany, for example, too, and some, but not all other parts of europe where they, where they have high industry .",
         "Context": "###well, the rangers really, uh, knocked the socks off of them, which you would expect --n4041d1 you know, anyway,###.###right.###.###but nolan i think --n4042f5 took himself out after a couple of innings --n40431c or something, you know, of the game###so,###.###.###okay.###.###so what do you, uh, think --n400050 is the, uh, the worst culprit for air pollution.###.###well, i think it's, it's probably a combination of things.###um, factories that, that --n400271 burn coal as a, an energy source with sulfur and nitrogen contaminants, you know,###and you get sulfur oxides and nitrogen oxides.###.###uh-huh.###.###uh, those are the ones i think --n40046f primarily contribute to acid rain,###and i think that's, that's probably hurting us a little bit."
     },
     {
@@ -6739,8 +6739,8 @@ items = [
     },
     {
         "Item_ID": "33859:9",
-        "OriginalSentence": "there some things i'd like  to try ,",
-        "ComparisonSentence": "there some, but not all things i'd like  to try ,",
+        "OriginalSentence": "there some things i'd like  to try,",
+        "ComparisonSentence": "there some, but not all things i'd like  to try,",
         "Context": "###and he goes, human nature.###.###.###and then, you know, you see these little girls in these little bitty things,###and they're all like twenty-one years of age.###.###uh-huh.###.###but luckily at mumblex there's a little more diverse clientele.###.###that's true,###they do.###.###except for the guys that --n406963 lift the weights.###they do intimidate.###.###yeah.###i try --n406a36 to go real late or real early before they get there.###.###yeah."
     },
     {
@@ -6847,8 +6847,8 @@ items = [
     },
     {
         "Item_ID": "9584:73",
-        "OriginalSentence": "when i, when i started  thinking about this , that those are some of my favorite shows,",
-        "ComparisonSentence": "when i, when i started  thinking about this , that those are some, but not all of my favorite shows,",
+        "OriginalSentence": "when i, when i started  thinking about this, that those are some of my favorite shows,",
+        "ComparisonSentence": "when i, when i started  thinking about this, that those are some, but not all of my favorite shows,",
         "Context": "###.###and i've, i've always liked that show probably the very best.###.###uh-huh.###i think i've actually seen a number of star treks, one way or another over the years. uh, although i never watched it regularly.###i'm certainly acquainted with the character the characters.###.###uh-huh.###.###and then i've seen some of the star trek movies.###.###yeah,###those,###the movies are good too.###.###.###and i, i guess all, most of the shows i like --n400ae2 are, are kind of along the same line because they're all adventure.###.###uh-huh.###."
     },
     {
@@ -6913,8 +6913,8 @@ items = [
     },
     {
         "Item_ID": "146612:75",
-        "OriginalSentence": "well, it is like, wel-, the one that i worked in , uh, you would see some of them just like in wheelchairs all day,",
-        "ComparisonSentence": "well, it is like, wel-, the one that i worked in , uh, you would see some, but not all of them just like in wheelchairs all day,",
+        "OriginalSentence": "well, it is like, wel-, the one that i worked in, uh, you would see some of them just like in wheelchairs all day,",
+        "ComparisonSentence": "well, it is like, wel-, the one that i worked in, uh, you would see some, but not all of them just like in wheelchairs all day,",
         "Context": "###.###.###i think it would matter too, uh, kinds of, uh, disabilities that the nursing home accepts --n402420. because there are some, uh, who --n40244b poor things, you know, don't have, uh, any real grasp on reality any longer.###.###right.###.###.###right.###.###and they may be ambulatory,###but they tend --n4026ec to behave like children, small children###.###yeah.###.###and that would be very difficult i think --n4027d1 for an adult who --n4027ec wasn't in that situation to to have --n402813 to deal with --n402826 on a daily basis.###.###yeah.###.###uh.###."
     },
     {
@@ -6931,8 +6931,8 @@ items = [
     },
     {
         "Item_ID": "92716:8",
-        "OriginalSentence": "just some of the times they're continued ,",
-        "ComparisonSentence": "just some, but not all of the times they're continued ,",
+        "OriginalSentence": "just some of the times they're continued,",
+        "ComparisonSentence": "just some, but not all of the times they're continued,",
         "Context": "###sometimes it --n402014's better just to tape record both of them and then watch it all in one.###.###uh-huh.###.### we, we do that sometimes.### i, i guess i'm, i'm not into real heavy stuff.###l a law is about the heaviest thing i watch --n402312.### i, i'll, mostly i'm into it for relaxation,###.###yeah.###.###so i like things like golden girls or cheers###or, uh, monday night is real good with me, you know,###major dad and, and, uh, northern exposure and, and, uh,###oh, what's that one with burt reynolds --n4026d6.###that type of show is what we what, uh, we watch --n402772.###.###uh-huh.###.###we generally just stay on one channel all, for all of monday night, just --n402891 to watch those."
     },
     {
@@ -6991,8 +6991,8 @@ items = [
     },
     {
         "Item_ID": "110398:27",
-        "OriginalSentence": "i found when i did do some work  when my son was young , it was like contract work,",
-        "ComparisonSentence": "i found when i did do some, but not all work  when my son was young , it was like contract work,",
+        "OriginalSentence": "i found when i did do some work  when my son was young, it was like contract work,",
+        "ComparisonSentence": "i found when i did do some, but not all work  when my son was young, it was like contract work,",
         "Context": "###i'm worth a lot just for what i do --n403af2 every day,###but, you know, i don't know,###this is kind of a, um,### at, at least here i've noticed,###i'm not from here,###i'm from colorado,###but i've really noticed that there are a lot of, uh, a lot more people that --n403dec are more comfortable, at least, with some women being home and, at least in the circles i've travelled --n403e4f and in the church that i go to --n403e76, you know,###that###men don't treat you like you don't know anything, generally speaking.###.###yeah.###.###.###well, and i think a lot of companies are realizing this and offering more opportunities as far as like job sharing or, you know, even having a day care on site and that kind of stuff,###and i think that's really important that, that they do that###.###yeah.###.###and they realize there's a need for that,###and, um, i don't know,"
     },
     {
@@ -7093,8 +7093,8 @@ items = [
     },
     {
         "Item_ID": "136180:24",
-        "OriginalSentence": "i mean, we still have some highways closed ,",
-        "ComparisonSentence": "i mean, we still have some, but not all highways closed ,",
+        "OriginalSentence": "i mean, we still have some highways closed,",
+        "ComparisonSentence": "i mean, we still have some, but not all highways closed,",
         "Context": "###.###wow. but do you have snow on the ground now.###.###yeah###.###oh.###.###there is snow on the ground.###.###well, that's nice.###.### i, i wish it would snow a little bit more.###i've heard it's raining there.###.###oh, gosh,###we've broken all sorts of records.###.###oh really.###.###they've got,"
     },
     {
@@ -7177,8 +7177,8 @@ items = [
     },
     {
         "Item_ID": "115490:21",
-        "OriginalSentence": "and even like reading some new age things, things that i don't quite believe in ,",
-        "ComparisonSentence": "and even like reading some, but not all new age things, things that i don't quite believe in ,",
+        "OriginalSentence": "and even like reading some new age things, things that i don't quite believe in,",
+        "ComparisonSentence": "and even like reading some, but not all new age things, things that i don't quite believe in,",
         "Context": "###and that's what --n40257c made me want --n40258f to read the book.###.###uh-huh.###.###candice bergen was in the movie.###i'm a real big fan of hers###so,###.###yeah.###cool,###see, i also read a lot of books about music --n402795 because i'm interested in that and fair number of stuff about science and also philosophy things.###.###uh-huh.### i like, i like --n402932 to read some of the philosophy stuff.###.###like,###.###.###uh-huh.###like, let's see,"
     },
     {
@@ -7207,14 +7207,14 @@ items = [
     },
     {
         "Item_ID": "6607:30",
-        "OriginalSentence": "because from what i understand , from some of the guys i know , you know, crime, uh, is punishable, just almost, uh, instantly and public,",
-        "ComparisonSentence": "because from what i understand , from some, but not all of the guys i know , you know, crime, uh, is punishable, just almost, uh, instantly and public,",
+        "OriginalSentence": "because from what i understand, from some of the guys i know, you know, crime, uh, is punishable, just almost, uh, instantly and public,",
+        "ComparisonSentence": "because from what i understand, from some, but not all of the guys i know, you know, crime, uh, is punishable, just almost, uh, instantly and public,",
         "Context": "###yeah,###yeah.###.###.###but it --n402021 might be interesting to see what --n402044 would happen if you took kids at a, and then took then to another country instead of having being exposed --n4020a3 to all the drugs and violence and sex and everything here, and take them to some other country that --n4020fa had different moral values, like saudi arabia where they couldn't drink --n402135.###.###where they couldn't do that --n4023d1.###yeah,###you might end up with a revolution.###i don't know which end though.###.###really.###.###yeah,###yeah.### that's, that's been interesting, though, the kids that --n402590 have been over, you know, coming back right now, you know.###.###yeah.###.###you wonder if being exposed to that for a while, what percentage of them --n402759 would actually say, hey, that's not a bad way to do it --n4027a4,"
     },
     {
         "Item_ID": "2180:39",
-        "OriginalSentence": "so we have, both of us have some money in an i r a that we're also trying  to figure ,",
-        "ComparisonSentence": "so we have, both of us have some, but not all money in an i r a that we're also trying  to figure ,",
+        "OriginalSentence": "so we have, both of us have some money in an i r a that we're also trying  to figure,",
+        "ComparisonSentence": "so we have, both of us have some, but not all money in an i r a that we're also trying  to figure,",
         "Context": "###.###uh-huh.###.###so, we don't have any long term, you know, in stocks, or anything like that right now,###so.###.###yeah,###mostly what we're doing, we've worked, we've done --n403075 the, uh, coda account with t i where they, we put in so much a month --n4030c8,### and then they,###or so much a pay check###and then they match it.###.###yeah,###that's what we're doing --n40338c.###.###so that's, that's worked out pretty good###and then, i used --n4034a8 to work for t i###and i have,###when i retired from there, or left --n40357e, i took the money i that i had --n4035ad in mine and put it in an i r a###and we had an out, we had an existing i r a"
     },
     {
@@ -7225,8 +7225,8 @@ items = [
     },
     {
         "Item_ID": "57069:61",
-        "OriginalSentence": "and, uh, he makes a very, uh, passionate, good argument for why you don't want some things decided  by democratic process ,",
-        "ComparisonSentence": "and, uh, he makes a very, uh, passionate, good argument for why you don't want some, but not all things decided  by democratic process ,",
+        "OriginalSentence": "and, uh, he makes a very, uh, passionate, good argument for why you don't want some things decided  by democratic process,",
+        "ComparisonSentence": "and, uh, he makes a very, uh, passionate, good argument for why you don't want some, but not all things decided  by democratic process,",
         "Context": "###no,###i haven't.###.###um, oh, hamilt-, i think it was hamilton who --n407deb wrote number ten or something, where he was arguing for a republican --n407e26, not in the sense of the republican party now, versus a democratic --n407e65, uh, government and, arguing successfully, why, the united states should be a republic, not a democracy. which indeed it really is --n407edc --n407ee3 --n407eea,###a republic, not a democracy.###.###right.###.###where he defines dep-, democracy as everyone votes for the issues and republic is people who --n40822d vote for someone who --n408244 then in turn votes for the issues --n408267.###in other words, you vote for representatives.###.###uh-huh.###.###and the whole idea was, um, presumably those who --n4084a2 get voted --n4084b1 in would be wiser than the average person, and, and, a specialist and able --n4084fc to make more informed decisions and can protect against the tyranny of democracy,###.###.###because just as you can have a tyranny of a single, um, you know, bad ruler or something, you can have a tyranny of the majority.###.###uh-huh.###."
     },
     {
@@ -7291,8 +7291,8 @@ items = [
     },
     {
         "Item_ID": "172225:11",
-        "OriginalSentence": "i have some games , of course, which i play  on there",
-        "ComparisonSentence": "i have some, but not all games , of course, which i play  on there",
+        "OriginalSentence": "i have some games, of course, which i play  on there",
+        "ComparisonSentence": "i have some, but not all games, of course, which i play  on there",
         "Context": "###.###at georgia tech.###.###i see.###.###yeah,###so.###.###in engineering.###.###yes, actually.###.###so that explains wha-, all the, uh, computer assignments.###.###yeah,###it, uh,###.###well, do you use your p c for things other than explicit computer work.###.###um, sure."
     },
     {
@@ -7411,8 +7411,8 @@ items = [
     },
     {
         "Item_ID": "77309:26",
-        "OriginalSentence": "what do you think  are some current trends in, uh, the way families spend time together , based on what you've seen .",
-        "ComparisonSentence": "what do you think  are some, but not all current trends in, uh, the way families spend time together , based on what you've seen .",
+        "OriginalSentence": "what do you think  are some current trends in, uh, the way families spend time together, based on what you've seen .",
+        "ComparisonSentence": "what do you think  are some, but not all current trends in, uh, the way families spend time together, based on what you've seen .",
         "Context": "###mumblex,###.###.###yeah.###well, i hope, i live through it.###.###yeah.###i do, too.###.###.###that's what i hope --n406838.###okay.###thanks a lot.###.###bye-bye.###.###good-bye.###.###.###okay,"
     },
     {
@@ -7459,8 +7459,8 @@ items = [
     },
     {
         "Item_ID": "134169:64",
-        "OriginalSentence": "maybe to you and i who  have grown up in some in, uh, uh, some more beautiful parts of the country, uh, i think that, that, uh, we become a little more aware , uh, rather quickly of, of what 's happening with air pollution and how, uh, how horrible it really is .",
-        "ComparisonSentence": "maybe to you and i who  have grown up in some, but not all in, uh, uh, some, but not all more beautiful parts of the country, uh, i think that, that, uh, we become a little more aware , uh, rather quickly of, of what 's happening with air pollution and how, uh, how horrible it really is .",
+        "OriginalSentence": "maybe to you and i who  have grown up in some in, uh, uh, some more beautiful parts of the country, uh, i think that, that, uh, we become a little more aware, uh, rather quickly of, of what 's happening with air pollution and how, uh, how horrible it really is .",
+        "ComparisonSentence": "maybe to you and i who  have grown up in some, but not all in, uh, uh, some, but not all more beautiful parts of the country, uh, i think that, that, uh, we become a little more aware, uh, rather quickly of, of what 's happening with air pollution and how, uh, how horrible it really is .",
         "Context": "###.###.###uh-huh.###.###and there is a, a real promotion of, of biking###.###uh-huh.###.###but, um, there are still a lot of people who --n402096 insist on, on --n4020ad driving their own automobiles uh, --n4020cc to go everywhere.###.###right.###.###i find that a little irritating, because i don't think it's always so necessary.###.###uh-huh.###.###.###yeah,###yeah,### it, it becomes, uh,"
     },
     {
@@ -7489,8 +7489,8 @@ items = [
     },
     {
         "Item_ID": "169898:50",
-        "OriginalSentence": "do you think that in the case of the one that you've actually had some experience with , that the people who  operate it seem  to have, what you'd perceive of  as genuine concern.",
-        "ComparisonSentence": "do you think that in the case of the one that you've actually had some, but not all experience with , that the people who  operate it seem  to have, what you'd perceive of  as genuine concern.",
+        "OriginalSentence": "do you think that in the case of the one that you've actually had some experience with, that the people who  operate it seem  to have, what you'd perceive of  as genuine concern.",
+        "ComparisonSentence": "do you think that in the case of the one that you've actually had some, but not all experience with, that the people who  operate it seem  to have, what you'd perceive of  as genuine concern.",
         "Context": "###i mean the, the environment there, i don't know too much about it###but it, it seems nice enough.###uh, it, it's hard,###at least half of the residents i would say --n40148b are not, not mentally sound.###so it --n40156d's hard to tell how much of that --n401598 rubs off on those who --n4015b3 are struggling --n4015c2 to r-, to retain, uh, clarity, say, uh, you know.###.###from the lack of stimulation, you mean --n4017c5.###.###yeah.###well i, i don-, i don't know.### we, we --n40192d also, my wife and i, uh, uh, volunteer --n401964 to go to a, uh, nursing home that --n401993's just a mile from our house.### we, uh, she goes more often than i.###we used --n401bb3 to go once a month, once every two months --n401be2 to visit some of the patients there.###and we'd take, we have a two year old son###and so we, sometimes we'd take him with us.###and, uh, there i would say it's the same thing.### it's, it's a nice, uh, relatively nice environment###but again, um, it must be depressing for the people who, who --n402040 are, who --n402057 are just e-, e-, essentially not able --n40209e to take care of themselves in their own house but, but, certainly, uh, certainly have ar-, ar-, are, have retained all of their, uh, mental skills and so on.###it --n4024d8's, must be depressing to, to walk, walk the halls and see, an-, and see all these other people who --n40256b really don't know where they are --n40258e.###."
     },
     {
@@ -7531,8 +7531,8 @@ items = [
     },
     {
         "Item_ID": "46244:16",
-        "OriginalSentence": "some, some places do have guard gates that you have  to get through , or electronic access gates and things like that.",
-        "ComparisonSentence": "some, some, but not all places do have guard gates that you have  to get through , or electronic access gates and things like that.",
+        "OriginalSentence": "some, some places do have guard gates that you have  to get through, or electronic access gates and things like that.",
+        "ComparisonSentence": "some, some, but not all places do have guard gates that you have  to get through, or electronic access gates and things like that.",
         "Context": "###sure, go ahead.###.###uh, in dallas there's definitely a crime problem,###i know it's, you know, worse in the larger cities.###um, it's kind of a concern for me,###in fact, at the moment i'm thinking of --n400357 possibly moving to a new apartment###and, uh, it's,###i am single and female,###you definitely are going --n4004b4 to worry about the location, and, uh, you know, accessibility --n4004f3 of people to be able --n400512 to break in.###i live on a third floor now,###but, i, you know, i'm real concerned that i, i don't want --n400708 to be on a first floor where you can have problems with things like that --n40074b,###and, the, um,###.###do they have many buildings that --n400940 have security there.###.###some buildings do,###it depends on the location.###the area i live in --n400a60 right now, is, is real good as far as crime rate is concerned###and we don't have anything at all,###no burglar alarms, no guards."
     },
     {
@@ -7609,8 +7609,8 @@ items = [
     },
     {
         "Item_ID": "85965:39",
-        "OriginalSentence": "and, and, uh,, i think some different things  could come from what 's happened , than what we expect .",
-        "ComparisonSentence": "and, and, uh,, i think some, but not all different things  could come from what 's happened , than what we expect .",
+        "OriginalSentence": "and, and, uh,, i think some different things  could come from what 's happened, than what we expect .",
+        "ComparisonSentence": "and, and, uh,, i think some, but not all different things  could come from what 's happened, than what we expect .",
         "Context": "###.###yeah.###.### i, i guess, you know, i'd like you to maybe express something here.###.###well i, i, i think overall that's right.###i think it's kind of sad --n402520 though, that, for generations they've been taught --n40254f to hate each other.###.###yeah.###.###and that's, i-, you know,###if,###somewhere in there someone's going --n40273b to have --n40274a to learn a different way.###.###that's,###yeah.###.###you know, an, an, i, i think that, um,###true we do have completely different ways of looking at things, at a lot of things,###but, uh, at the same time, i think there are a lot of, there is a lot of good that the united states and other countries can do --n402af5, as far as example"
     },
     {
@@ -7645,8 +7645,8 @@ items = [
     },
     {
         "Item_ID": "53690:14",
-        "OriginalSentence": "you've got some kids that 'll pick up on it in the first three minutes you're talking about it ,",
-        "ComparisonSentence": "you've got some, but not all kids that 'll pick up on it in the first three minutes you're talking about it ,",
+        "OriginalSentence": "you've got some kids that 'll pick up on it in the first three minutes you're talking about it,",
+        "ComparisonSentence": "you've got some, but not all kids that 'll pick up on it in the first three minutes you're talking about it,",
         "Context": "###bye-bye.###.###bye-bye.###.###.###okay.###.###the public school systems, well everybody's kno-, has known they've needed renovation for years, but never really had a clear direction on which way --n4000a4 to go --n4000b3 with it.###.###uh-huh.###.###the first direction that i can see, or i wish, i would love --n40027a to see them go with --n400299.###kids learn at different rates###and for too long they've kind of lumped everybody together.###you'd learn at this rate###and that's the only way it's going --n400514 to happen --n400523.###.###yeah.###that's true.###."
     },
     {
@@ -7777,8 +7777,8 @@ items = [
     },
     {
         "Item_ID": "7265:10",
-        "OriginalSentence": "we did some remodeling when we bought a house ,",
-        "ComparisonSentence": "we did some, but not all remodeling when we bought a house ,",
+        "OriginalSentence": "we did some remodeling when we bought a house,",
+        "ComparisonSentence": "we did some, but not all remodeling when we bought a house,",
         "Context": "###we're looking for a baby-sitter###so we've been out twice in o-, in this year so far. by ourselves without the child###.###uh-huh.###.###so it's kind of, uh, become an issue you could say --n4022f7.###.###sure.###.###um, hobbies,###i like, --n4023e3 messing around in your house building things, and, you know, putting cabinets up, and, those kind of things, um,###.###oh yeah,###that's great, too.###.###.###uh-huh.###.###.###yeah,"
     },
     {
@@ -7897,8 +7897,8 @@ items = [
     },
     {
         "Item_ID": "67780:49",
-        "OriginalSentence": "and the dog was being house sit , or dog sit , whatever, by some friends of mine down the street,",
-        "ComparisonSentence": "and the dog was being house sit , or dog sit , whatever, by some, but not all friends of mine down the street,",
+        "OriginalSentence": "and the dog was being house sit, or dog sit, whatever, by some friends of mine down the street,",
+        "ComparisonSentence": "and the dog was being house sit, or dog sit, whatever, by some, but not all friends of mine down the street,",
         "Context": "###.###wow.###.###um, but he had actually was able --n4013d0 to get him over that.###.###uh-huh.###.###and then he was gaining weight again, was just getting healthy,###and, uh, he put on about fifteen to twenty pounds after the thing###and then he got hit --n4015fe by a cadillac.###.###oh no.###.###so, i couldn't believe it.### that was, that was really hard.###.###oh, gee.###.###and that was even harder for,###i was on a business trip at the time"
     },
     {
@@ -7981,8 +7981,8 @@ items = [
     },
     {
         "Item_ID": "7017:34",
-        "OriginalSentence": "well the, the other thing some people are not aware of , is they will use their a, their credit card like their visa or their mastercard for cash",
-        "ComparisonSentence": "well the, the other thing some, but not all people are not aware of , is they will use their a, their credit card like their visa or their mastercard for cash",
+        "OriginalSentence": "well the, the other thing some people are not aware of, is they will use their a, their credit card like their visa or their mastercard for cash",
+        "ComparisonSentence": "well the, the other thing some, but not all people are not aware of, is they will use their a, their credit card like their visa or their mastercard for cash",
         "Context": "###but, uh, i take the checkbook###so i, you know, i, just, if i need cash, i just tell him###and he gets it out###and i don't even think i know my number.###.###well, i find it a great use from the standpoint that you don't have --n401f19 to continue --n401f28 to write checks, in order --n401f47 to get cash.###.###uh-huh.###.###.###that's right.###see we, he couldn't do without it, h-, but, you know, since he can just do it right there at work, for nothing.###.###oh, that helps.###.###.###right.###.###yeah.###."
     },
     {
