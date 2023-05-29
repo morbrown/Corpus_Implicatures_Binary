@@ -319,5 +319,17 @@ p3
 
 grid.arrange(p3,p2,p1,nrow=1,sub=textGrob("Model-predicted by-item mean strength",gp=gpar(fontsize=17),vjust=0),left=textGrob("Empirical by-item mean strength",gp=gpar(fontsize=17),vjust=0.5,rot=90))
 
+#Histogram of completion times
+
+completion_times_data = read.table("data_binary/corpus_implicatures_binary_pilot-time_in_minutes.csv",sep=",",header=T,quote="")
+
+#This histogram isn't very helpful, I can try to improve it later today
+completion_hist = ggplot(completion_times_data,aes(x=time_in_minutes)) +
+                  geom_histogram() +
+  scale_x_continuous(name="Completion time",breaks=seq(0,11,by=5)) 
+
+completion_hist
+
+median(completion_times_data$time_in_minutes)
 
 
