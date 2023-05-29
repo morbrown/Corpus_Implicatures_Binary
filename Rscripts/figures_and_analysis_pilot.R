@@ -18,7 +18,7 @@ setwd("/Users/morbrown/code/corpus_implicatures_binary")
 source("Rscripts/helpers.R")
 
 # read data
-raw_data = read.table("proliferate_configuration_file_binary/corpus_implicatures_binary_pilot-trials.tsv",sep="\t",header=T,quote="")
+raw_data = read.table("data_binary/corpus_implicatures_binary_pilot-trials.tsv",sep="\t",header=T,quote="")
 
 raw_data_updated = raw_data %>%
   filter(!tgrep_id=="bot_check") %>%
@@ -36,7 +36,7 @@ class(raw_data_updated$means_same)
 #partitive info for each item, and only keeping those items which appeared
 #in the pilot experiment
 
-judith_data = read.table("proliferate_configuration_file_binary/some_database_copy.csv", sep="\t",header=T,quote="")
+judith_data = read.table("data_binary/some_database_copy.csv", sep="\t",header=T,quote="")
 
 judith_data_partitive = judith_data %>%
   select(Item, Partitive) %>%
