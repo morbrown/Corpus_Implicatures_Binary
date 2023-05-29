@@ -1,1 +1,4 @@
 *-workerids*
+
+#ignore all files and directories starting with prolfierate_
+proliferate_*
