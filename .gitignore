@@ -2,3 +2,24 @@
 
 #ignore all files and directories starting with prolfierate_
 proliferate_*
+
+*.RData
+*/node_modules/
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+*.aux
+*.synctex.gz
+*.toc
+*.config
+*.input
+*.properties
+*.question
+*.results
+*.success
+*_invoice.csv
+*.Rhistory
+*.DS_Store*
+
+
