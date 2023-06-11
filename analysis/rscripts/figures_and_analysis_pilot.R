@@ -395,6 +395,9 @@ centered = d %>%
 m.random = lmer(means_same ~  (1|workerid), data=centered)
 summary(m.random)
 
+m.random.logistic = glmer(means_same ~  (1|workerid), data=centered, family="binomial")
+summary(m.random.logistic)
+
 m.fixed = glmer(means_same ~ numPartitive*numStrengthSome+numredMention*numSubjecthood*numModification + numlogSentenceLength + (1|workerid), data=centered, family="binomial")
 summary(m.fixed)
 
