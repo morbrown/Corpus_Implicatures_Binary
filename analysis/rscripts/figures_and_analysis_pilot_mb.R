@@ -399,7 +399,43 @@ centered = d %>%
   mutate(numPartitive = c(scale(numPartitive, scale = FALSE)))%>%
   mutate(numredMention = c(scale(numredMention, scale = FALSE)))
 
+# JD WROTE THIS:
+d = d %>% 
+  mutate_at(c('Subjecthood', 'Partitive', 'Modification', 'redMention','means_same','tgrep_id','workerid'), as.factor)
 
+contrasts(d$Subjecthood)
+contrasts(d$Partitive)
+contrasts(d$Modification)
+contrasts(d$redMention)
+contrasts(d$means_same)
+
+centered = d %>%
+  mutate(cStrengthSome = StrengthSome - mean(StrengthSome)) %>%
+  mutate(clogSentenceLength = logSentenceLength - mean(logSentenceLength)) %>%
+  mutate(cSubjecthood = as.numeric(Subjecthood) -mean(as.numeric(Subjecthood))) %>%
+  mutate(cModification = as.numeric(Modification) - mean(as.numeric(Modification))) %>%
+  mutate(cPartitive = as.numeric(Partitive) - mean(as.numeric(Partitive))) %>% 
+  mutate(credMention = as.numeric(redMention) - mean(as.numeric(redMention))) 
+
+
+# model with only random by-participant and by-item intercepts
+m.simple = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (1|tgrep_id), 
+                 data=centered, 
+                 family="binomial",
+                 control=glmerControl(optimizer="bobyqa",
+                                      optCtrl=list(maxfun=2e5)))
+summary(m.simple)
+
+
+# model with more complex RE structure
+m = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (0 + cPartitive|workerid) + (0 + cStrengthSome|workerid) + (0 + credMention|workerid) + (0 + cSubjecthood|workerid) + (0+cModification|workerid) + (0 + cPartitive:cStrengthSome|workerid) + (1|tgrep_id), 
+          data=centered, 
+          family="binomial",
+          control=glmerControl(optimizer="bobyqa",
+                               optCtrl=list(maxfun=2e5)))
+summary(m)
+
+# END JD CODE
 
 
 m.random = lmer(means_same ~  (1|workerid), data=centered)
