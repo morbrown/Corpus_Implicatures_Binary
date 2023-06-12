@@ -6,6 +6,7 @@ library(tidyverse)
 library(lme4)
 library(gridExtra)
 library(dplyr)
+library(ggeffects)
 
 theme_set(theme_bw())
 cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
@@ -25,6 +26,8 @@ total_data_updated = total_data %>%
   filter(!tgrep_id=="bot_check") %>%
   filter(!tgrep_id=="example1") %>%
   filter(!tgrep_id=="example2")
+
+
 
 class(total_data_updated$means_same)
 
@@ -67,6 +70,11 @@ props = d %>%
 
 props
 
+props_gradient = props %>%
+  filter(!Proportion==0.00000000) %>%
+  filter(!Proportion==1.00000000)
+
+
 ggplot(props,aes(x=Proportion)) +
   geom_histogram() +
   ylab("Cases") +
@@ -96,6 +104,8 @@ p_bar
 dev.off()
 
 p_bar
+
+contrasts(d$Partitive)
 
 d = d %>%
   mutate(numPartitive = as.numeric(Partitive)) %>%
@@ -402,7 +412,17 @@ m.fixed = glmer(means_same ~ numPartitive*numStrengthSome+numredMention*numSubje
 summary(m.fixed)
 
 m.fixed.nointercept = glm(means_same ~ numPartitive*numStrengthSome+numredMention*numSubjecthood*numModification + numlogSentenceLength, data=centered, family="binomial")
-summary(m.fixed.nointercept)
+m.fixed.nointerceptsummary = summary(m.fixed.nointercept)
+
+contrasts(centered$numModification)
+
+contrasts(centered$numPartitive)
+
+ggpredict(m.fixed.nointercept, terms = c("numSubjecthood", "numModification"))%>%
+plot()
+
+ggpredict(m.fixed.nointercept, terms = c("numPartitive", "numStrengthSome"))%>%
+  plot()
 
 anova(m.random,m.fixed)
 
@@ -412,8 +432,13 @@ msummary = summary(m)
 coefs = as.data.frame(msummary$coefficients)
 summary(coefs)
 
+coefs.fixed.nointercept = as.data.frame(m.fixed.nointerceptsummary$coefficients)
+summary(coefs.fixed.nointercept)
+
 # create the model summary reported in Table 5, Appendix D
 createLatexTableLinear(coefs,predictornames=c("Intercept","Partitive","Strength","Linguistic mention","Subjecthood","Modification","Sentence length","Partitive:Strength","Linguistic mention:Subjecthood","Linguistic mention:Modification","Subjecthood:Modification","Linguistic mention:Subjecthood:Modification"))
+
+createLatexTableLinear(coefs.fixed.nointercept,predictornames=c("Intercept","Partitive","Strength","Linguistic mention","Subjecthood","Modification","Sentence length","Partitive:Strength","Linguistic mention:Subjecthood","Linguistic mention:Modification","Subjecthood:Modification","Linguistic mention:Subjecthood:Modification"))
 
 anova(m.fixed,m)
 
