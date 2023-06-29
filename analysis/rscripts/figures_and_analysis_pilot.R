@@ -6,6 +6,7 @@ library(tidyverse)
 library(lme4)
 library(gridExtra)
 library(dplyr)
+library(ggeffects)
 
 theme_set(theme_bw())
 cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
@@ -415,6 +416,13 @@ m.simple = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*
                  control=glmerControl(optimizer="bobyqa",
                                       optCtrl=list(maxfun=2e5)))
 summary(m.simple)
+
+
+ggpredict(m.simple, terms = c("cSubjecthood", "cModification"))%>%
+plot()
+
+ggpredict(m.simple, terms = c("cPartitive", "cStrengthSome"))%>%
+  plot()
 
 
 # model with more complex RE structure

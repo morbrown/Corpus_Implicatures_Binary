@@ -19,6 +19,22 @@ source("helpers.R")
 raw_data = read_tsv("../data/corpus_implicatures_binary_pilot-trials.tsv",quote="")
 test_data = read_tsv("../data/corpus_implicatures_binary_test-trials.tsv",quote="")
 main_data = read_tsv("../data/corpus_implicatures_main-trials.tsv",quote="")
+second_data = read_tsv("../data/corpus_implicatures_second_main-trials.tsv",quote="")
+
+second_data = second_data %>%
+  filter(!tgrep_id=="bot_check") %>%
+  filter(!tgrep_id=="example1") %>%
+  filter(!tgrep_id=="example2")%>%
+  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")
+
+second_data = as.data.frame(second_data)
+
+second_data %>%
+  mutate(means_same_new = means_same)
+
+second_data = second_data %>%
+separate(col="response", into=c("means_same", "sounds_weird"), sep=",")
+view(second_data)
 
 total_data <- rbind(raw_data, test_data, main_data)
 
@@ -27,11 +43,19 @@ total_data_updated = total_data %>%
   filter(!tgrep_id=="example1") %>%
   filter(!tgrep_id=="example2")
 
+class(second_data$means_same)
 
+as.numeric(raw_data$means_same)
+
+class(raw_data$means_same)
+
+table(second_data$means_same)
+table(raw_data$means_same)
+table(test_data$means_same)
 
 class(total_data_updated$means_same)
 
-total_data_updated$means_same = as.numeric(as.character(total_data_updated$means_same)) 
+total_data_updated$means_same = as.numeric(total_data_updated$means_same) 
 
 class(total_data_updated$means_same)
 summary(total_data_updated)
