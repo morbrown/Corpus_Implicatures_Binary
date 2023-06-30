@@ -87,7 +87,8 @@ view(judith_data)
 # Merging the case information into the binary judgment dataset
 d = total_data %>% 
   left_join(judith_data, by = "tgrep_id") %>% 
-  left_join(means_likert, by = "tgrep_id")
+  left_join(means_likert, by = "tgrep_id") %>% 
+  mutate(AllAlternative = fct_recode(AllAlternative,"'all' is alternative"="all_alt","'all' is NOT alternative"="all_notalt"))
 view(d)
 
 # plot histogram of by-item proportions
@@ -130,18 +131,28 @@ agr_id = d %>%
   group_by(tgrep_id, Partitive) %>% 
   summarize(Proportion = mean(response_numeric)) 
 
-pdf(file="../graphs/props_pbar_partitive.pdf",width=5,height=3)
-
 p_bar = ggplot(agr,aes(x=Partitive,y=Proportion,fill=Partitive)) +
   geom_bar(stat="identity",color="black",width=.5,show_guide=F) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.2) +
   scale_fill_manual(values=cbPalette) +
   scale_y_continuous("Mean implicature rate",limits=c(0,1)) 
-p_bar
+ggsave(file="../graphs/props_pbar_partitive.pdf",width=3,height=3)
 
-dev.off()
+# also group by alternativehood
+agr = d %>% 
+  group_by(Partitive,AllAlternative) %>% 
+  summarize(Proportion = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
+  ungroup() %>% 
+  mutate(YMin=Proportion-CILow,YMax=Proportion+CIHigh)
 
+p_bar = ggplot(agr,aes(x=Partitive,y=Proportion,fill=Partitive)) +
+  geom_bar(stat="identity",color="black",width=.5,show_guide=F) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.2) +
+  scale_fill_manual(values=cbPalette) +
+  scale_y_continuous("Mean implicature rate",limits=c(0,1)) +
+  facet_wrap(~AllAlternative)
 p_bar
+ggsave(p_bar,file="../graphs/props_pbar_partitive_byalternative.pdf",width=4,height=3)
 
 contrasts(d$Partitive)
 
@@ -149,9 +160,7 @@ d = d %>%
   mutate(numPartitive = as.numeric(Partitive)) %>%
   mutate(cPartitive = numPartitive - mean(numPartitive))
 summary(d)
-
-
-pdf(file="../graphs/props_phist_partitive.pdf",width=5,height=3)
+ggsave(file="../graphs/props_phist_partitive.pdf",width=5,height=3)
 
 #Why was coord_flip() added/is it visually better for plot to be sideways?
 p_hist = ggplot(agr_id, aes(x=Proportion,fill=Partitive)) +
