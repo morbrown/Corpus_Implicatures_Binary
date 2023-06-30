@@ -21,44 +21,39 @@ test_data = read_tsv("../data/corpus_implicatures_binary_test-trials.tsv",quote=
 main_data = read_tsv("../data/corpus_implicatures_main-trials.tsv",quote="")
 second_data = read_tsv("../data/corpus_implicatures_second_main-trials.tsv",quote="")
 
+#cleaning each dataframe before rbinding together into one dataframe
+raw_data = raw_data %>%
+  filter(!tgrep_id=="bot_check") %>%
+  filter(!tgrep_id=="example1") %>%
+  filter(!tgrep_id=="example2")%>%
+  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")%>%
+  mutate(response_numeric = case_when(means_same == "['Yes'" ~ 1, TRUE ~ 0))
+
+test_data = test_data %>%
+  filter(!tgrep_id=="bot_check") %>%
+  filter(!tgrep_id=="example1") %>%
+  filter(!tgrep_id=="example2")%>%
+  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")%>%
+  mutate(response_numeric = case_when(means_same == "['Yes'" ~ 1, TRUE ~ 0))
+
+main_data = main_data %>%
+  filter(!tgrep_id=="bot_check") %>%
+  filter(!tgrep_id=="example1") %>%
+  filter(!tgrep_id=="example2")%>%
+  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")%>%
+  mutate(response_numeric = case_when(means_same == "['Yes'" ~ 1, TRUE ~ 0))
+
 second_data = second_data %>%
   filter(!tgrep_id=="bot_check") %>%
   filter(!tgrep_id=="example1") %>%
   filter(!tgrep_id=="example2")%>%
-  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")
+  separate(col="response", into=c("means_same", "sounds_weird"), sep=",")%>%
+  mutate(response_numeric = case_when(means_same == "['Yes'" ~ 1, TRUE ~ 0))
 
-second_data = as.data.frame(second_data)
 
-second_data %>%
-  mutate(means_same_new = means_same)
 
-second_data = second_data %>%
-separate(col="response", into=c("means_same", "sounds_weird"), sep=",")
-view(second_data)
+total_data <- rbind(raw_data, test_data, main_data, second_data)
 
-total_data <- rbind(raw_data, test_data, main_data)
-
-total_data_updated = total_data %>%
-  filter(!tgrep_id=="bot_check") %>%
-  filter(!tgrep_id=="example1") %>%
-  filter(!tgrep_id=="example2")
-
-class(second_data$means_same)
-
-as.numeric(raw_data$means_same)
-
-class(raw_data$means_same)
-
-table(second_data$means_same)
-table(raw_data$means_same)
-table(test_data$means_same)
-
-class(total_data_updated$means_same)
-
-total_data_updated$means_same = as.numeric(total_data_updated$means_same) 
-
-class(total_data_updated$means_same)
-summary(total_data_updated)
 
 #Reading in data from original likert scale experiment, in which each item is 
 #coded as partitive or non-partitive. Then isolating only the tgrep id and 
@@ -76,21 +71,16 @@ nrow(judith_data)
 view(judith_data)
 
 #Merging the case information into the binary judgment dataset
-d = total_data_updated %>% 
+d = total_data %>% 
   left_join(judith_data, by = "tgrep_id")
 view(d)
 
-length(unique(d$workerid))
-
-length(d$means_same)
-
-table(d$means_same)
 
 
 # plot histogram of by-item proportions
 props = d %>% 
   group_by(tgrep_id) %>% 
-  summarize(Proportion = mean(means_same))
+  summarize(Proportion = mean(response_numeric))
 
 props
 
@@ -108,13 +98,13 @@ ggsave("../graphs/props_byitem.pdf",width=4,height=3)
 # Figure 2: Mean implicature strength ratings (left) and distribution of mean by-item ratings (right) for non-partitive and partitive some-NPs.
 agr = d %>% 
   group_by(Partitive) %>% 
-  summarize(Proportion = mean(means_same), CILow=ci.low(means_same), CIHigh=ci.high(means_same)) %>% 
+  summarize(Proportion = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
   ungroup() %>% 
   mutate(YMin=Proportion-CILow,YMax=Proportion+CIHigh)
 
 agr_id = d %>% 
   group_by(tgrep_id, Partitive) %>% 
-  summarize(Proportion = mean(means_same)) 
+  summarize(Proportion = mean(response_numeric)) 
 
 pdf(file="../graphs/props_pbar_partitive.pdf",width=5,height=3)
 
@@ -136,17 +126,6 @@ d = d %>%
   mutate(cPartitive = numPartitive - mean(numPartitive))
 summary(d)
 
-m_partitive = glmer(means_same ~ cPartitive + (1|tgrep_id) + (1 + cPartitive | workerid), data=d, family="binomial")
-summary(m_partitive)
-
-plogis(1.3214-0.1085)
-
-
-
-#intercept of m_partitive represents log odds of 'yes' rating of non-partitive
-#NP. It is lower than 0, so less than 0.5. Main effect of partitivity (beta =
-# 1.32, SE = 0.17, p = 2.85e-15), such that partitive NPs are more likely
-#to give rise to a scalar implicature than non-partitive NPs
 
 pdf(file="../graphs/props_phist_partitive.pdf",width=5,height=3)
 
@@ -166,13 +145,13 @@ dev.off()
 # Figure 6: Mean implicature strength ratings (left) and distribution of mean by-item ratings (right) for other and subject some-NPs.
 agr = d %>% 
   group_by(Subjecthood) %>% 
-  summarize(Proportion = mean(means_same), CILow=ci.low(means_same), CIHigh=ci.high(means_same)) %>% 
+  summarize(Proportion = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
   ungroup() %>% 
   mutate(YMin=Proportion-CILow,YMax=Proportion+CIHigh)
 
 agr_id = d %>% 
   group_by(tgrep_id, Subjecthood) %>% 
-  summarize(Proportion = mean(means_same)) 
+  summarize(Proportion = mean(response_numeric)) 
 
 pdf(file="../graphs/props_pbar_subjecthood.pdf",width=5,height=3)
 
@@ -208,23 +187,16 @@ summary(d)
 class(d$numSubjecthood)
 
 
-
-m_subjecthood = glmer(means_same ~ cSubjecthood + (1|tgrep_id) + (1 + cSubjecthood | workerid), data=d, family="binomial")
-summary(m_subjecthood)
-
-plogis(1.7592)
-
-
 # Figure 5: Mean implicature strength ratings (left) and distribution of mean by-item ratings (right) for new, mediated, and old embedded NP referents.
 agr = d %>% 
   group_by(Mention) %>% 
-  summarize(Proportion = mean(means_same), CILow=ci.low(means_same), CIHigh=ci.high(means_same)) %>% 
+  summarize(Proportion = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
   ungroup() %>% 
   mutate(YMin=Proportion-CILow,YMax=Proportion+CIHigh)
 
 agr_id = d %>% 
   group_by(tgrep_id, Mention) %>% 
-  summarize(Proportion = mean(means_same)) 
+  summarize(Proportion = mean(response_numeric)) 
 
 pdf(file="../graphs/props_pbar_mention.pdf",width=5,height=3)
 
@@ -253,26 +225,15 @@ dev.off()
 
 class(d$Mention)
 
-#d = d %>%
-# mutate(Mention = as.numeric(Mention)) %>%
-# mutate(cMention = Mention - mean(Mention))
-#summary(d)
-
-
-
-m_mention = glmer(means_same ~ Mention + (1|tgrep_id) + (1 + Mention | workerid), data=d, family="binomial")
-summary(m_mention)
-
-plogis(0.4556)
 
 # Figure 7: Mean implicature strength ratings (left) and distribution of mean by-item ratings (right) for modified and unmodified some-NPs.
 agr = d %>% 
   group_by(Modification) %>% 
-  summarize(Proportion = mean(means_same), CILow=ci.low(means_same), CIHigh=ci.high(means_same)) %>% 
+  summarize(Proportion = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
   ungroup() %>% 
   mutate(YMin=Proportion-CILow,YMax=Proportion+CIHigh)
 
-total_yes = sum(d$means_same)
+total_yes = sum(d$response_numeric)
 
 total_ratings = nrow(d)
 
@@ -282,7 +243,7 @@ total_yes/total_ratings
 
 agr_id = d %>% 
   group_by(tgrep_id, Modification) %>% 
-  summarize(Proportion = mean(means_same)) 
+  summarize(Proportion = mean(response_numeric)) 
 
 pdf(file="../graphs/props_pbar_modification.pdf",width=5,height=3)
 
@@ -317,16 +278,6 @@ d = d %>%
 
 class(d$numModification)
 
-#d = d %>%
-# mutate(numModification = as.numeric(Modification)) %>%
-#mutate(cModification = numModification - mean(numModification))
-
-m_mod = glmer(means_same ~ Modification + (1|tgrep_id) + (1 + Modification | workerid), data=d, family="binomial")
-summary(m_mod)
-
-#Intercept is -0.09, which means that unmodified NPs have less than a 50% chance
-# of giving rise to implicature. Beta is 0.38, which means that modified NPs
-# have 0.38 - 0.09 = 0.31, greater than 50% chance of implicature
 # JD UPDATED FILE UP TO THIS POINT
 
 
@@ -350,8 +301,8 @@ grid.arrange(p,pp,nrow=1)
 
 
 # Figure 4: Mean by-item implicature rating as a function of decreasing determiner strength.
-agr = aggregate(means_same ~ tgrep_id + StrengthSome, data=d, FUN=mean)
-fundetstrength = ggplot(agr,aes(x=StrengthSome,y=means_same)) +
+agr = aggregate(response_numeric ~ tgrep_id + StrengthSome, data=d, FUN=mean)
+fundetstrength = ggplot(agr,aes(x=StrengthSome,y=response_numeric)) +
   stat_sum(size=3,aes(alpha=..n..)) +
   scale_y_continuous(name="Mean implicature strength rating") +
   scale_x_continuous("Decreasing determiner strength",breaks=c(3,4,5,6,7),labels=c("3\n stronger","4","5","6","7\nweaker")) +
@@ -370,31 +321,20 @@ d = d %>%
 summary(d)
 
 
-m_detstrength = glmer(means_same ~ cStrengthSome + (1|tgrep_id) + (1 + cStrengthSome | workerid), data=d, family="binomial")
-summary(m_detstrength)
-
-datacenter = c(17, 5, 10, 14, 13)
-
-datacenter = data.frame(datacenter)
-
-datacenter = datacenter %>%
-  mutate(centered = datacenter - mean(datacenter)) %>%
-  mutate(centeredscale = c(scale(datacenter, scale = FALSE)))
-
 
 
 # Figure 8: Mean implicature strength ratings by linguistic mention (old/new embedded NP referent), subjecthood (subject/other some-NP), and modification (modified/unmodified embedded NP).
 d$redMention = as.factor(ifelse(d$Mention == "new","new","old"))
-agr = aggregate(means_same ~ tgrep_id + Modification + Subjecthood + redMention,FUN=mean, data=d)
-agrr = aggregate(data=agr, means_same ~ Modification + Subjecthood + redMention, FUN=mean)
-agrr$CILow = aggregate(means_same ~ Modification + Subjecthood + redMention, data=agr, FUN=ci.low)$means_same
-agrr$CIHigh = aggregate(means_same ~ Modification + Subjecthood + redMention, data=agr, FUN=ci.high)$means_same
-agrr$YMin = agrr$means_same - agrr$CILow
-agrr$YMax = agrr$means_same + agrr$CIHigh
+agr = aggregate(response_numeric ~ tgrep_id + Modification + Subjecthood + redMention,FUN=mean, data=d)
+agrr = aggregate(data=agr, response_numeric ~ Modification + Subjecthood + redMention, FUN=mean)
+agrr$CILow = aggregate(response_numeric ~ Modification + Subjecthood + redMention, data=agr, FUN=ci.low)$response_numeric
+agrr$CIHigh = aggregate(response_numeric ~ Modification + Subjecthood + redMention, data=agr, FUN=ci.high)$response_numeric
+agrr$YMin = agrr$response_numeric - agrr$CILow
+agrr$YMax = agrr$response_numeric + agrr$CIHigh
 agrr$Freq = as.data.frame(table(agr$Modification,agr$Subjecthood,agr$redMention))$Freq
 dodge = position_dodge(.9)
 
-ggplot(agrr,aes(x=redMention,y=means_same,fill=Subjecthood)) +
+ggplot(agrr,aes(x=redMention,y=response_numeric,fill=Subjecthood)) +
   geom_bar(stat="identity",position=dodge,width=.9) +  
   geom_bar(stat="identity",color="black",position=dodge,width=.9,show_guide=F) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25,position=dodge) +
@@ -443,7 +383,7 @@ centered = d %>%
 
 
 # model with only random by-participant and by-item intercepts
-m.simple = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (1|tgrep_id), 
+m.simple = glmer(response_numeric ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (1|tgrep_id), 
                  data=centered, 
                  family="binomial",
                  control=glmerControl(optimizer="bobyqa",
