@@ -7,6 +7,8 @@ library(lme4)
 library(gridExtra)
 library(dplyr)
 library(ggeffects)
+library(readr)
+library(ggExtra)
 
 theme_set(theme_bw())
 cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
@@ -53,12 +55,24 @@ second_data = second_data %>%
 
 
 total_data <- rbind(raw_data, test_data, main_data, second_data)
-
+nrow(total_data)
 
 #Reading in data from original likert scale experiment, in which each item is 
 #coded as partitive or non-partitive. Then isolating only the tgrep id and 
 #partitive info for each item, and only keeping those items which appeared
 #in the pilot experiment
+d_likert = read_tsv("https://raw.githubusercontent.com/thegricean/corpus_implicatures/master/some/analysis/meta_analysis/data/some_data_allannotations.tsv")
+nrow(d_likert)
+
+means_likert = d_likert %>% 
+  rename(tgrep_id=Item) %>% 
+  select(tgrep_id,AllAlternative,Rating) %>% 
+  group_by(tgrep_id,AllAlternative) %>% 
+  summarize(Mean_likert = mean(Rating), CILow=ci.low(Rating), CIHigh=ci.high(Rating)) %>% 
+  ungroup() %>% 
+  mutate(YMin_likert=Mean_likert - CILow, YMax_likert=Mean_likert + CIHigh) %>% 
+  select(-CIHigh,-CILow)
+nrow(means_likert)
 
 judith_data = read_tsv("../data/some_database_copy.csv",quote="") %>% 
   rename(tgrep_id=Item) %>% 
@@ -70,30 +84,40 @@ judith_data = read_tsv("../data/some_database_copy.csv",quote="") %>%
 nrow(judith_data)
 view(judith_data)
 
-#Merging the case information into the binary judgment dataset
+# Merging the case information into the binary judgment dataset
 d = total_data %>% 
-  left_join(judith_data, by = "tgrep_id")
+  left_join(judith_data, by = "tgrep_id") %>% 
+  left_join(means_likert, by = "tgrep_id")
 view(d)
 
-
-
 # plot histogram of by-item proportions
-props = d %>% 
-  group_by(tgrep_id) %>% 
-  summarize(Proportion = mean(response_numeric))
+pl = d %>% 
+  group_by(tgrep_id,Mean_likert,YMin_likert,YMax_likert) %>% 
+  summarize(Prop_binary = mean(response_numeric), CILow=ci.low(response_numeric), CIHigh=ci.high(response_numeric)) %>% 
+  ungroup() %>% 
+  mutate(YMin_binary=Prop_binary - CILow, YMax_binary=Prop_binary + CIHigh)
 
-props
-
-props_gradient = props %>%
-  filter(!Proportion==0.00000000) %>%
-  filter(!Proportion==1.00000000)
-
-
-ggplot(props,aes(x=Proportion)) +
+ggplot(pl,aes(x=Prop_binary)) +
   geom_histogram() +
   ylab("Cases") +
   scale_x_continuous(name="By-item implicature rate",breaks=seq(0,1,by=0.1)) 
 ggsave("../graphs/props_byitem.pdf",width=4,height=3)
+
+# plot binary proportions against likert means
+pl_plot = ggplot(pl,aes(x=Prop_binary, y=Mean_likert)) +
+  geom_point() +
+  geom_smooth(method="lm") +
+  geom_errorbar(aes(ymin=YMin_likert,ymax=YMax_likert),alpha=.05) +
+  geom_errorbarh(aes(xmin=YMin_binary, xmax=YMax_binary),alpha=.05) +
+  scale_y_continuous(name="Mean by-item ratings (Likert scale)",limits=c(1,7)) +
+  scale_x_continuous(name="By-item proportions of 'yes' responses (binary scale)",breaks=seq(0,1,by=0.1),limits=c(0,1)) 
+
+cor.test(pl$Prop_binary,pl$Mean_likert) # correlation of r=.86
+
+pdf(file="../graphs/replication_scatterplot.pdf",width=5.5,height=5)
+ggMarginal(pl_plot, type = "histogram")
+dev.off()
+
 
 # Figure 2: Mean implicature strength ratings (left) and distribution of mean by-item ratings (right) for non-partitive and partitive some-NPs.
 agr = d %>% 
