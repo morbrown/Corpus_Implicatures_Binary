@@ -152,7 +152,7 @@ p_bar = ggplot(agr,aes(x=Partitive,y=Proportion,fill=Partitive)) +
   scale_y_continuous("Mean implicature rate",limits=c(0,1)) +
   facet_wrap(~AllAlternative)
 p_bar
-ggsave(p_bar,file="../graphs/props_pbar_partitive_byalternative.pdf",width=4,height=3)
+ggsave(p_bar,file="../graphs/props_pbar_partitive_byalternative.pdf",width=3.5,height=3)
 
 contrasts(d$Partitive)
 
@@ -398,13 +398,15 @@ centered = d %>%
 
 # JD WROTE THIS:
 d = d %>% 
-  mutate_at(c('Subjecthood', 'Partitive', 'Modification', 'redMention','means_same','tgrep_id','workerid'), as.factor)
+  mutate_at(c('Subjecthood', 'Partitive', 'Modification', 'redMention','means_same','tgrep_id','workerid','AllAlternative'), as.factor) %>% 
+  mutate(AllAlternative = fct_relevel(AllAlternative,"'all' is NOT alternative"))
 
 contrasts(d$Subjecthood)
 contrasts(d$Partitive)
 contrasts(d$Modification)
 contrasts(d$redMention)
 contrasts(d$means_same)
+contrasts(d$AllAlternative)
 
 centered = d %>%
   mutate(cStrengthSome = StrengthSome - mean(StrengthSome)) %>%
@@ -412,11 +414,12 @@ centered = d %>%
   mutate(cSubjecthood = as.numeric(Subjecthood) -mean(as.numeric(Subjecthood))) %>%
   mutate(cModification = as.numeric(Modification) - mean(as.numeric(Modification))) %>%
   mutate(cPartitive = as.numeric(Partitive) - mean(as.numeric(Partitive))) %>% 
-  mutate(credMention = as.numeric(redMention) - mean(as.numeric(redMention))) 
+  mutate(credMention = as.numeric(redMention) - mean(as.numeric(redMention))) %>%  
+  mutate(cAllAlternative = as.numeric(AllAlternative) - mean(as.numeric(AllAlternative))) 
 
 
 # model with only random by-participant and by-item intercepts
-m.simple = glmer(response_numeric ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (1|tgrep_id), 
+m.simple = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength + (1|workerid) + (1|tgrep_id), 
                  data=centered, 
                  family="binomial",
                  control=glmerControl(optimizer="bobyqa",
@@ -431,6 +434,22 @@ m = glmer(means_same ~ cPartitive*cStrengthSome+credMention*cSubjecthood*cModifi
           control=glmerControl(optimizer="bobyqa",
                                optCtrl=list(maxfun=2e5)))
 summary(m)
+
+# interactions with alternativehood
+m.alt = glmer(means_same ~ (cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength)*cAllAlternative + (1|workerid) + (1|tgrep_id), 
+                 data=centered, 
+                 family="binomial")#,
+                 #control=glmerControl(optimizer="bobyqa",
+                  #                    optCtrl=list(maxfun=2e5)))
+summary(m.alt)
+
+m.alt = glmer(means_same ~ AllAlternative* (cPartitive*cStrengthSome+credMention*cSubjecthood*cModification + clogSentenceLength) - AllAlternative + (1|workerid), 
+              data=centered, 
+              family="binomial",
+              control=glmerControl(optimizer="bobyqa",
+                   optCtrl=list(maxfun=2e5)))
+summary(m.alt)
+save(m.alt,file="m.alt.RData")
 
 # END JD CODE
 
